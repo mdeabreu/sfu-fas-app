@@ -1,0 +1,46 @@
+#summary Current team members and information
+
+= Karl Olson =
+== Team Leader ==
+karlrolson@gmail.com
+=== Skills ===
+C++, HTML, XML, Java, SQLLite, Python, PHP, Visual Basic, Android Development
+=== Bio ===
+  * Built first website at age 12. 
+  * Worked as an Andriod developer for a startup company in 2009. Maintained personal website for over a decade at Karlrolson.com
+  * Interests: Head Moderator for a forum since 2006 at toonzone.net/forums/
+  * Computing Science Major 
+<br><br>
+
+= Sam To =
+== Lead Programmer ==
+sj8@sfu.ca
+=== Skills ===
+C++, Java
+=== Bio ===
+  * Manage home server
+  * Engineering Science Major
+  * Interests: Building hardware using Arduino.
+<br><br>
+
+= Mun-Hong Goon =
+== Documentation ==
+mga21@sfu.ca
+=== Skills ===
+C, C++, Java, C#
+=== Bio ===
+  * Created website using java scripts and html. 
+  * Took technical writing course at SFU: CMPT 376
+  * Computing Science Major
+  * Interests: Building customer computers -- assembled hundreds of x86 computers including laptops.  
+<br><br>
+
+= Matthew DeAbreu =
+== Webmaster & Secondary Programmer ==
+mdeabreu@sfu.ca
+=== Skills ===
+C, C++, Java, HTML
+=== Bio ===
+  * Developed websites and simple games since elementary school
+  * Computing Science Major
+  * Interests: Video game development
