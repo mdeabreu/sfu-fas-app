@@ -7,4 +7,6 @@ This is the wiki page for Assignment 1.
 
 = Details =
 
-Content will be added here when it becomes available
+Click the link below to download the Project Plan (Assignment 1).
+
+<a href="http://sfu-fas-app.googlecode.com/files/Group-4-ProjectPlan.doc">Assignment 1</a>
