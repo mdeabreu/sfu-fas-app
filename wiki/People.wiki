@@ -1,6 +1,7 @@
 #summary Current team members and information
 
 = Karl Olson =
+<img src="https://dl.dropbox.com/s/h265oqh2pfato6n/KarlOlson.jpg">
 == Team Leader ==
 karlrolson@gmail.com
 === Skills ===
@@ -13,6 +14,7 @@ C++, HTML, XML, Java, SQLLite, Python, PHP, Visual Basic, Android Development
 <br><br>
 
 = Sam To =
+<img src="https://dl.dropbox.com/s/yrkpmvu99uh4clu/SamTo.jpg">
 == Lead Programmer ==
 sj8@sfu.ca
 === Skills ===
@@ -24,6 +26,7 @@ C++, Java
 <br><br>
 
 = Mun-Hong Goon =
+<img src="https://dl.dropbox.com/s/fszk3uxmm3iwuks/MunHongGoon.jpg">
 == Documentation ==
 mga21@sfu.ca
 === Skills ===
@@ -36,6 +39,7 @@ C, C++, Java, C#
 <br><br>
 
 = Matthew DeAbreu =
+<img src="https://dl.dropbox.com/s/fqi4mfarkdysle8/MatthewDeAbreu.jpg">
 == Webmaster & Secondary Programmer ==
 mdeabreu@sfu.ca
 === Skills ===
