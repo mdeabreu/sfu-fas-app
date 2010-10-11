@@ -1,10 +1,9 @@
 #summary Wiki page for Assignment 2.
 
-= Introduction =
+= Requirements and Initial Design =
 
-This is the wiki page for Assignment 2.
+<a href="http://sfu-fas-app.googlecode.com/files/Group-4-Requirements.doc">Requirements Document</a>
 
+<a href="http://sfu-fas-app.googlecode.com/files/Group-4-Design.doc">Design Document</a>
 
-= Details =
-
-Content will be added here when it becomes available
+<a href="http://sfu-fas-app.googlecode.com/files/Group-4-QA.doc">Quality Assurance Document</a>
