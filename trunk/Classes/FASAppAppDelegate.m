@@ -60,6 +60,7 @@
 	NSString *conFile = [[NSBundle mainBundle] pathForResource:@"contact" ofType:@"html"];
 	NSData *conData = [NSData dataWithContentsOfFile:conFile];
 	[contactView loadData:conData MIMEType:@"text/html" textEncodingName:@"UTF-8" baseURL:[NSURL URLWithString:@""]];
+	contactView.delegate = self;
 	
 	/*
 	 * About FAS
@@ -67,6 +68,7 @@
 	NSString *fasFile = [[NSBundle mainBundle] pathForResource:@"aboutFAS" ofType:@"html"];
 	NSData *fasData = [NSData dataWithContentsOfFile:fasFile];
 	[aboutFASView loadData:fasData MIMEType:@"text/html" textEncodingName:@"UTF-8" baseURL:[NSURL URLWithString:@""]];
+	aboutFASView.delegate = self;
 	
 	/*
 	 * About Us
@@ -74,6 +76,7 @@
 	NSString *aboutFile = [[NSBundle mainBundle] pathForResource:@"aboutUs" ofType:@"html"];
 	NSData *aboutData = [NSData dataWithContentsOfFile:aboutFile];
 	[aboutUsView loadData:aboutData MIMEType:@"text/html" textEncodingName:@"UTF-8" baseURL:[NSURL URLWithString:@""]];
+	aboutUsView.delegate = self;
 	
 	
     // Override point for customization after application launch.
@@ -86,6 +89,12 @@
 - (UIView *)viewForZoomingInScrollView:(UIScrollView *)scrollView {
 	return map;
 }
+
+-(BOOL) webView:(UIWebView *)inWeb shouldStartLoadWithRequest:(NSURLRequest *)inRequest navigationType:(UIWebViewNavigationType)inType {
+    [[UIApplication sharedApplication] openURL:[inRequest URL]];
+    return NO;
+}
+
 
 - (void)applicationWillResignActive:(UIApplication *)application {
     /*
