@@ -13,6 +13,7 @@
 		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
 		288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765FC0DF74451002DB57D /* CoreGraphics.framework */; };
 		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
+		3410DA4C127F46740056A556 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 3410DA4B127F46740056A556 /* icon.png */; };
 		34261FEB127DF70400CB8C28 /* EventsList.m in Sources */ = {isa = PBXBuildFile; fileRef = 34261FE8127DF70400CB8C28 /* EventsList.m */; };
 		34261FEC127DF70400CB8C28 /* NewsList.m in Sources */ = {isa = PBXBuildFile; fileRef = 34261FEA127DF70400CB8C28 /* NewsList.m */; };
 		34261FEF127DF76500CB8C28 /* EventsList.xib in Resources */ = {isa = PBXBuildFile; fileRef = 34261FED127DF76500CB8C28 /* EventsList.xib */; };
@@ -34,6 +35,7 @@
 		28AD733E0D9D9553002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		32CA4F630368D1EE00C91783 /* FASApp_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FASApp_Prefix.pch; sourceTree = "<group>"; };
+		3410DA4B127F46740056A556 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
 		34261FE7127DF70400CB8C28 /* EventsList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EventsList.h; sourceTree = "<group>"; };
 		34261FE8127DF70400CB8C28 /* EventsList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EventsList.m; sourceTree = "<group>"; };
 		34261FE9127DF70400CB8C28 /* NewsList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewsList.h; sourceTree = "<group>"; };
@@ -107,11 +109,10 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				34261FED127DF76500CB8C28 /* EventsList.xib */,
-				34261FEE127DF76500CB8C28 /* NewsList.xib */,
+				3410DA66127F48EE0056A556 /* icons */,
+				3410DA55127F48D10056A556 /* views */,
 				34888290127A0E7D00AAF6C4 /* html */,
 				34888272127A0C6100AAF6C4 /* maps */,
-				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
 				8D1107310486CEB800E47090 /* FASApp-Info.plist */,
 			);
 			name = Resources;
@@ -125,6 +126,24 @@
 				288765FC0DF74451002DB57D /* CoreGraphics.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3410DA55127F48D10056A556 /* views */ = {
+			isa = PBXGroup;
+			children = (
+				34261FED127DF76500CB8C28 /* EventsList.xib */,
+				34261FEE127DF76500CB8C28 /* NewsList.xib */,
+				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
+			);
+			name = views;
+			sourceTree = "<group>";
+		};
+		3410DA66127F48EE0056A556 /* icons */ = {
+			isa = PBXGroup;
+			children = (
+				3410DA4B127F46740056A556 /* icon.png */,
+			);
+			name = icons;
 			sourceTree = "<group>";
 		};
 		34888272127A0C6100AAF6C4 /* maps */ = {
@@ -203,6 +222,7 @@
 				34B5A398127CD62E0017D779 /* aboutUs.html in Resources */,
 				34261FEF127DF76500CB8C28 /* EventsList.xib in Resources */,
 				34261FF0127DF76500CB8C28 /* NewsList.xib in Resources */,
+				3410DA4C127F46740056A556 /* icon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,11 +274,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Matthew DeAbreu (T65UL657K7)";
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				PREBINDING = NO;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "11FD6B6B-BCA7-4A32-961D-743D3C0EAE39";
 				SDKROOT = iphoneos4.1;
 			};
 			name = Debug;
