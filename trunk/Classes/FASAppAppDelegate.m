@@ -21,19 +21,26 @@
 	/*
 	 * Bulletins
 	 */
+	//Loads a string containing the URL to view into an NSURL object
 	NSURL *url = [NSURL URLWithString:@"http://cgi.sfu.ca/~avts/cgi-bin/imagecycler.cgi"];
+	//Which is then added to the request
 	NSURLRequest *request = [NSURLRequest requestWithURL:url];
+	//And the request is processed, loading the page into a webview
 	[bulletinsView loadRequest:request];
     
 	/*
 	 * Maps
 	 */
+	//A string containing the path of the map
 	NSString *mapFile = [[NSBundle mainBundle] pathForResource:@"map" ofType:@"gif"];
+	//Load the data of the map into the application
 	NSData *mapData = [NSData dataWithContentsOfFile:mapFile];
+	//Put the map into the image view
 	UIImageView *tempImageView = [[UIImageView alloc] initWithImage:[UIImage imageWithData:mapData]];
 	[self setMap:tempImageView];
 	[tempImageView release];
 	
+	//Settings for the view including the size of the map, max/min zooms and the default zoom level
 	mapsView.contentSize = CGSizeMake(map.frame.size.width, map.frame.size.height);
 	mapsView.maximumZoomScale = 1.5;
 	mapsView.minimumZoomScale = 0.30;
@@ -49,6 +56,12 @@
 	/*
 	 * Faculty Directory
 	 */
+	//Loads a local html file into a webview, very similar to loading a url
+	NSString *facFile = [[NSBundle mainBundle] pathForResource:@"faculty" ofType:@"html"];
+	NSData *facData = [NSData dataWithContentsOfFile:facFile];
+	[facDirView loadData:facData MIMEType:@"text/html" textEncodingName:@"UTF-8" baseURL:[NSURL URLWithString:@""]];
+	//Needed to open links in Mobile Safari
+	facDirView.delegate = self;
 	
 	/*
 	 * Alumni Info
@@ -78,19 +91,27 @@
 	[aboutUsView loadData:aboutData MIMEType:@"text/html" textEncodingName:@"UTF-8" baseURL:[NSURL URLWithString:@""]];
 	aboutUsView.delegate = self;
 	
+	/*
+	 * SFU Connect
+	 */
+	NSURL *conURL = [NSURL URLWithString:@"http://connect.sfu.ca"];
+	NSURLRequest *conRequest = [NSURLRequest requestWithURL:conURL];
+	[connectView loadRequest:conRequest];
+	
 	
     // Override point for customization after application launch.
-    
     [window makeKeyAndVisible];
     
     return YES;
 }
 
 - (UIView *)viewForZoomingInScrollView:(UIScrollView *)scrollView {
+	//Enables pinch to zoom in the map view
 	return map;
 }
 
 -(BOOL) webView:(UIWebView *)inWeb shouldStartLoadWithRequest:(NSURLRequest *)inRequest navigationType:(UIWebViewNavigationType)inType {
+	//In local html pages being displayed, links are opened in Mobile Safari instead of the webview
     [[UIApplication sharedApplication] openURL:[inRequest URL]];
     return NO;
 }
