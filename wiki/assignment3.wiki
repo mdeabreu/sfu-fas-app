@@ -1,8 +1,7 @@
 #summary Wiki page for Assignment 3.
 
-= Introduction =
+= Assignment 3 Documentation =
 
-This is the wiki page for Assignment 3.
 
 
 = Details =
