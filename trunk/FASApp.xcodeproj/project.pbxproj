@@ -14,6 +14,10 @@
 		288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765FC0DF74451002DB57D /* CoreGraphics.framework */; };
 		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
 		3410DA4C127F46740056A556 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 3410DA4B127F46740056A556 /* icon.png */; };
+		343100E912A45EB2009E532F /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 343100E812A45EB2009E532F /* SystemConfiguration.framework */; };
+		343100ED12A45EDD009E532F /* libz.1.1.3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 343100EC12A45EDD009E532F /* libz.1.1.3.dylib */; };
+		343100F012A45F00009E532F /* WebConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 343100EF12A45F00009E532F /* WebConnection.m */; };
+		343100F212A460D0009E532F /* offline.html in Resources */ = {isa = PBXBuildFile; fileRef = 343100F112A460D0009E532F /* offline.html */; };
 		34393FFF129A3EEC006367BB /* DetailView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 34393FFE129A3EEC006367BB /* DetailView.xib */; };
 		34394011129A4115006367BB /* deansMessage.html in Resources */ = {isa = PBXBuildFile; fileRef = 34394010129A4115006367BB /* deansMessage.html */; };
 		345F0CE0127A2BE5007DDDCF /* template.html in Resources */ = {isa = PBXBuildFile; fileRef = 345F0CDF127A2BE5007DDDCF /* template.html */; };
@@ -32,6 +36,21 @@
 		34888297127A0EA500AAF6C4 /* aboutFAS.html in Resources */ = {isa = PBXBuildFile; fileRef = 34888296127A0EA500AAF6C4 /* aboutFAS.html */; };
 		34A41F611282308700C21D2D /* faculty.html in Resources */ = {isa = PBXBuildFile; fileRef = 34A41F601282308700C21D2D /* faculty.html */; };
 		34B5A398127CD62E0017D779 /* aboutUs.html in Resources */ = {isa = PBXBuildFile; fileRef = 34B5A397127CD62E0017D779 /* aboutUs.html */; };
+		34C0B51812A486A500F90DD9 /* SFUConnect.m in Sources */ = {isa = PBXBuildFile; fileRef = 34C0B51712A486A500F90DD9 /* SFUConnect.m */; };
+		34C0B52112A4888C00F90DD9 /* SFUConnect.xib in Resources */ = {isa = PBXBuildFile; fileRef = 34C0B52012A4888C00F90DD9 /* SFUConnect.xib */; };
+		34C0B54012A48B1100F90DD9 /* Bulletins.m in Sources */ = {isa = PBXBuildFile; fileRef = 34C0B53F12A48B1100F90DD9 /* Bulletins.m */; };
+		34C0B54212A48B7C00F90DD9 /* Bulletins.xib in Resources */ = {isa = PBXBuildFile; fileRef = 34C0B54112A48B7C00F90DD9 /* Bulletins.xib */; };
+		34C0B56012A4A0D200F90DD9 /* Contacts.m in Sources */ = {isa = PBXBuildFile; fileRef = 34C0B55F12A4A0D200F90DD9 /* Contacts.m */; };
+		34C0B56212A4A1C100F90DD9 /* Contacts.xib in Resources */ = {isa = PBXBuildFile; fileRef = 34C0B56112A4A1C100F90DD9 /* Contacts.xib */; };
+		34C0B5E212A4ABA500F90DD9 /* Directory.m in Sources */ = {isa = PBXBuildFile; fileRef = 34C0B5E112A4ABA500F90DD9 /* Directory.m */; };
+		34C0B5E712A4B13F00F90DD9 /* Directory.xib in Resources */ = {isa = PBXBuildFile; fileRef = 34C0B5E612A4B13F00F90DD9 /* Directory.xib */; };
+		34C0B60412A4B47200F90DD9 /* Message.m in Sources */ = {isa = PBXBuildFile; fileRef = 34C0B60312A4B47200F90DD9 /* Message.m */; };
+		34C0B60612A4B55700F90DD9 /* Message.xib in Resources */ = {isa = PBXBuildFile; fileRef = 34C0B60512A4B55700F90DD9 /* Message.xib */; };
+		34C0B61112A4B6ED00F90DD9 /* AboutFAS.m in Sources */ = {isa = PBXBuildFile; fileRef = 34C0B61012A4B6ED00F90DD9 /* AboutFAS.m */; };
+		34C0B61412A4B6F500F90DD9 /* AboutUs.m in Sources */ = {isa = PBXBuildFile; fileRef = 34C0B61312A4B6F500F90DD9 /* AboutUs.m */; };
+		34C0B62D12A4B7EA00F90DD9 /* AboutFAS.xib in Resources */ = {isa = PBXBuildFile; fileRef = 34C0B62C12A4B7EA00F90DD9 /* AboutFAS.xib */; };
+		34C0B62F12A4B7F100F90DD9 /* AboutUs.xib in Resources */ = {isa = PBXBuildFile; fileRef = 34C0B62E12A4B7F100F90DD9 /* AboutUs.xib */; };
+		34EA8145129C8A7E00846ADD /* FASTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34EA8144129C8A7E00846ADD /* FASTabBarController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -45,6 +64,11 @@
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		32CA4F630368D1EE00C91783 /* FASApp_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FASApp_Prefix.pch; sourceTree = "<group>"; };
 		3410DA4B127F46740056A556 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		343100E812A45EB2009E532F /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		343100EC12A45EDD009E532F /* libz.1.1.3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.1.1.3.dylib; path = usr/lib/libz.1.1.3.dylib; sourceTree = SDKROOT; };
+		343100EE12A45F00009E532F /* WebConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebConnection.h; sourceTree = "<group>"; };
+		343100EF12A45F00009E532F /* WebConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebConnection.m; sourceTree = "<group>"; };
+		343100F112A460D0009E532F /* offline.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = offline.html; sourceTree = "<group>"; };
 		34393FFE129A3EEC006367BB /* DetailView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DetailView.xib; sourceTree = "<group>"; };
 		34394010129A4115006367BB /* deansMessage.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = deansMessage.html; sourceTree = "<group>"; };
 		345F0CDF127A2BE5007DDDCF /* template.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = template.html; sourceTree = "<group>"; };
@@ -69,6 +93,29 @@
 		34888296127A0EA500AAF6C4 /* aboutFAS.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = aboutFAS.html; sourceTree = "<group>"; };
 		34A41F601282308700C21D2D /* faculty.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = faculty.html; sourceTree = "<group>"; };
 		34B5A397127CD62E0017D779 /* aboutUs.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = aboutUs.html; sourceTree = "<group>"; };
+		34C0B51612A486A500F90DD9 /* SFUConnect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFUConnect.h; sourceTree = "<group>"; };
+		34C0B51712A486A500F90DD9 /* SFUConnect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFUConnect.m; sourceTree = "<group>"; };
+		34C0B52012A4888C00F90DD9 /* SFUConnect.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SFUConnect.xib; sourceTree = "<group>"; };
+		34C0B53E12A48B1100F90DD9 /* Bulletins.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bulletins.h; sourceTree = "<group>"; };
+		34C0B53F12A48B1100F90DD9 /* Bulletins.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bulletins.m; sourceTree = "<group>"; };
+		34C0B54112A48B7C00F90DD9 /* Bulletins.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Bulletins.xib; sourceTree = "<group>"; };
+		34C0B55E12A4A0D200F90DD9 /* Contacts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Contacts.h; sourceTree = "<group>"; };
+		34C0B55F12A4A0D200F90DD9 /* Contacts.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Contacts.m; sourceTree = "<group>"; };
+		34C0B56112A4A1C100F90DD9 /* Contacts.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Contacts.xib; sourceTree = "<group>"; };
+		34C0B5E012A4ABA500F90DD9 /* Directory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Directory.h; sourceTree = "<group>"; };
+		34C0B5E112A4ABA500F90DD9 /* Directory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Directory.m; sourceTree = "<group>"; };
+		34C0B5E612A4B13F00F90DD9 /* Directory.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Directory.xib; sourceTree = "<group>"; };
+		34C0B60212A4B47200F90DD9 /* Message.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Message.h; sourceTree = "<group>"; };
+		34C0B60312A4B47200F90DD9 /* Message.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Message.m; sourceTree = "<group>"; };
+		34C0B60512A4B55700F90DD9 /* Message.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Message.xib; sourceTree = "<group>"; };
+		34C0B60F12A4B6ED00F90DD9 /* AboutFAS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AboutFAS.h; sourceTree = "<group>"; };
+		34C0B61012A4B6ED00F90DD9 /* AboutFAS.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutFAS.m; sourceTree = "<group>"; };
+		34C0B61212A4B6F500F90DD9 /* AboutUs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AboutUs.h; sourceTree = "<group>"; };
+		34C0B61312A4B6F500F90DD9 /* AboutUs.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutUs.m; sourceTree = "<group>"; };
+		34C0B62C12A4B7EA00F90DD9 /* AboutFAS.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AboutFAS.xib; sourceTree = "<group>"; };
+		34C0B62E12A4B7F100F90DD9 /* AboutUs.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AboutUs.xib; sourceTree = "<group>"; };
+		34EA8143129C8A7E00846ADD /* FASTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FASTabBarController.h; sourceTree = "<group>"; };
+		34EA8144129C8A7E00846ADD /* FASTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FASTabBarController.m; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* FASApp-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "FASApp-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -80,6 +127,8 @@
 				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
 				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
 				288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */,
+				343100E912A45EB2009E532F /* SystemConfiguration.framework in Frameworks */,
+				343100ED12A45EDD009E532F /* libz.1.1.3.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -103,6 +152,24 @@
 				347B99F8129A0DEB00F3F7AF /* WebViewController.m */,
 				1D3623240D0F684500981E51 /* FASAppAppDelegate.h */,
 				1D3623250D0F684500981E51 /* FASAppAppDelegate.m */,
+				34EA8143129C8A7E00846ADD /* FASTabBarController.h */,
+				34EA8144129C8A7E00846ADD /* FASTabBarController.m */,
+				343100EE12A45F00009E532F /* WebConnection.h */,
+				343100EF12A45F00009E532F /* WebConnection.m */,
+				34C0B51612A486A500F90DD9 /* SFUConnect.h */,
+				34C0B51712A486A500F90DD9 /* SFUConnect.m */,
+				34C0B53E12A48B1100F90DD9 /* Bulletins.h */,
+				34C0B53F12A48B1100F90DD9 /* Bulletins.m */,
+				34C0B55E12A4A0D200F90DD9 /* Contacts.h */,
+				34C0B55F12A4A0D200F90DD9 /* Contacts.m */,
+				34C0B5E012A4ABA500F90DD9 /* Directory.h */,
+				34C0B5E112A4ABA500F90DD9 /* Directory.m */,
+				34C0B60212A4B47200F90DD9 /* Message.h */,
+				34C0B60312A4B47200F90DD9 /* Message.m */,
+				34C0B60F12A4B6ED00F90DD9 /* AboutFAS.h */,
+				34C0B61012A4B6ED00F90DD9 /* AboutFAS.m */,
+				34C0B61212A4B6F500F90DD9 /* AboutUs.h */,
+				34C0B61312A4B6F500F90DD9 /* AboutUs.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -154,6 +221,8 @@
 				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
 				1D30AB110D05D00D00671497 /* Foundation.framework */,
 				288765FC0DF74451002DB57D /* CoreGraphics.framework */,
+				343100E812A45EB2009E532F /* SystemConfiguration.framework */,
+				343100EC12A45EDD009E532F /* libz.1.1.3.dylib */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -167,6 +236,13 @@
 				347B9A01129A0E0800F3F7AF /* NewsList.xib */,
 				347B9A02129A0E0800F3F7AF /* WebViewController.xib */,
 				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
+				34C0B52012A4888C00F90DD9 /* SFUConnect.xib */,
+				34C0B54112A48B7C00F90DD9 /* Bulletins.xib */,
+				34C0B56112A4A1C100F90DD9 /* Contacts.xib */,
+				34C0B5E612A4B13F00F90DD9 /* Directory.xib */,
+				34C0B60512A4B55700F90DD9 /* Message.xib */,
+				34C0B62C12A4B7EA00F90DD9 /* AboutFAS.xib */,
+				34C0B62E12A4B7F100F90DD9 /* AboutUs.xib */,
 			);
 			name = views;
 			sourceTree = "<group>";
@@ -196,6 +272,7 @@
 				345F0CF9127A33BD007DDDCF /* contact.html */,
 				34B5A397127CD62E0017D779 /* aboutUs.html */,
 				34A41F601282308700C21D2D /* faculty.html */,
+				343100F112A460D0009E532F /* offline.html */,
 			);
 			name = html;
 			sourceTree = "<group>";
@@ -263,6 +340,14 @@
 				347B9A06129A0E0800F3F7AF /* WebViewController.xib in Resources */,
 				34393FFF129A3EEC006367BB /* DetailView.xib in Resources */,
 				34394011129A4115006367BB /* deansMessage.html in Resources */,
+				343100F212A460D0009E532F /* offline.html in Resources */,
+				34C0B52112A4888C00F90DD9 /* SFUConnect.xib in Resources */,
+				34C0B54212A48B7C00F90DD9 /* Bulletins.xib in Resources */,
+				34C0B56212A4A1C100F90DD9 /* Contacts.xib in Resources */,
+				34C0B5E712A4B13F00F90DD9 /* Directory.xib in Resources */,
+				34C0B60612A4B55700F90DD9 /* Message.xib in Resources */,
+				34C0B62D12A4B7EA00F90DD9 /* AboutFAS.xib in Resources */,
+				34C0B62F12A4B7F100F90DD9 /* AboutUs.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,6 +366,15 @@
 				347B99FC129A0DEB00F3F7AF /* NewsList.m in Sources */,
 				347B99FD129A0DEB00F3F7AF /* RSSParser.m in Sources */,
 				347B99FE129A0DEB00F3F7AF /* WebViewController.m in Sources */,
+				34EA8145129C8A7E00846ADD /* FASTabBarController.m in Sources */,
+				343100F012A45F00009E532F /* WebConnection.m in Sources */,
+				34C0B51812A486A500F90DD9 /* SFUConnect.m in Sources */,
+				34C0B54012A48B1100F90DD9 /* Bulletins.m in Sources */,
+				34C0B56012A4A0D200F90DD9 /* Contacts.m in Sources */,
+				34C0B5E212A4ABA500F90DD9 /* Directory.m in Sources */,
+				34C0B60412A4B47200F90DD9 /* Message.m in Sources */,
+				34C0B61112A4B6ED00F90DD9 /* AboutFAS.m in Sources */,
+				34C0B61412A4B6F500F90DD9 /* AboutUs.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
