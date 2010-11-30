@@ -17,16 +17,6 @@
 #pragma mark Application lifecycle
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-	
-	/*
-	 * Bulletins
-	 */
-	//Loads a string containing the URL to view into an NSURL object
-	NSURL *url = [NSURL URLWithString:@"http://cgi.sfu.ca/~avts/cgi-bin/imagecycler.cgi"];
-	//Which is then added to the request
-	NSURLRequest *request = [NSURLRequest requestWithURL:url];
-	//And the request is processed, loading the page into a webview
-	[bulletinsView loadRequest:request];
     
 	/*
 	 * Maps
@@ -50,45 +40,16 @@
 	mapsView.zoomScale = 0.30;
 	
 	/*
-	 * Faculty News
-	 */
-	
-	/*
-	 * Faculty Directory
-	 */
-	//Loads a local html file into a webview, very similar to loading a url
-	NSString *facFile = [[NSBundle mainBundle] pathForResource:@"faculty" ofType:@"html"];
-	NSData *facData = [NSData dataWithContentsOfFile:facFile];
-	[facDirView loadData:facData MIMEType:@"text/html" textEncodingName:@"UTF-8" baseURL:[NSURL URLWithString:@""]];
-	//Needed to open links in Mobile Safari
-	facDirView.delegate = self;
-	
-	/*
-	 * Alumni Info
-	 */
-	
-	/*
-	 * Contact Info
-	 */
-	NSString *conFile = [[NSBundle mainBundle] pathForResource:@"contact" ofType:@"html"];
-	NSData *conData = [NSData dataWithContentsOfFile:conFile];
-	[contactView loadData:conData MIMEType:@"text/html" textEncodingName:@"UTF-8" baseURL:[NSURL URLWithString:@""]];
-	contactView.delegate = self;
-	
-	/*
-	 * Dean's Message
-	 */
-	NSString *mesFile = [[NSBundle mainBundle] pathForResource:@"contact" ofType:@"html"];
-	NSData *mesData = [NSData dataWithContentsOfFile:mesFile];
-	[messageView loadData:mesData MIMEType:@"text/html" textEncodingName:@"UTF-8" baseURL:[NSURL URLWithString:@""]];
-	messageView.delegate = self;
-	
-	/*
 	 * About FAS
 	 */
 	NSString *fasFile = [[NSBundle mainBundle] pathForResource:@"aboutFAS" ofType:@"html"];
 	NSData *fasData = [NSData dataWithContentsOfFile:fasFile];
 	[aboutFASView loadData:fasData MIMEType:@"text/html" textEncodingName:@"UTF-8" baseURL:[NSURL URLWithString:@""]];
+	/*
+	aboutFASView.autoresizesSubviews = YES;
+	aboutFASView.autoresizingMask = (UIViewAutoresizingFlexibleHeight | UIViewAutoresizingFlexibleWidth);
+	 */
+	//Needed to open links in Mobile Safari
 	aboutFASView.delegate = self;
 	
 	/*
@@ -97,16 +58,13 @@
 	NSString *aboutFile = [[NSBundle mainBundle] pathForResource:@"aboutUs" ofType:@"html"];
 	NSData *aboutData = [NSData dataWithContentsOfFile:aboutFile];
 	[aboutUsView loadData:aboutData MIMEType:@"text/html" textEncodingName:@"UTF-8" baseURL:[NSURL URLWithString:@""]];
+	/*
+	aboutUsView.autoresizesSubviews = YES;
+	aboutUsView.autoresizingMask = (UIViewAutoresizingFlexibleHeight | UIViewAutoresizingFlexibleWidth);
+	 */
+	//Needed to open links in Mobile Safari
 	aboutUsView.delegate = self;
 	
-	/*
-	 * SFU Connect
-	 */
-	NSURL *conURL = [NSURL URLWithString:@"http://connect.sfu.ca"];
-	NSURLRequest *conRequest = [NSURLRequest requestWithURL:conURL];
-	[connectView loadRequest:conRequest];
-	
-	//[self setTabBarOrderIfSaved]; //Should update the tab bar order on launch, doesn't work.
 	[window addSubview:tabBarController.view];
 	
     // Override point for customization after application launch.
@@ -119,32 +77,6 @@
 	//Enables pinch to zoom in the map view
 	return map;
 }
-
-- (void) setTabBarOrderIfSaved {
-	//Returns the tab order from a saved state.
-	NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
-	NSArray *savedOrder = [defaults arrayForKey:@"savedTabOrder"];
-	NSMutableArray *orderedTabs = [NSMutableArray arrayWithCapacity:11];
-	
-	if ([savedOrder count] > 0 ) {
-		for (int i = 0; i <= [savedOrder count]; i++){
-			for (UIViewController *tempController in tabBarController.viewControllers) {
-				if ([tempController.tabBarItem.title isEqualToString:[savedOrder objectAtIndex:i]]) {
-					[orderedTabs addObject:tempController];
-				}
-			}
-		}
-		tabBarController.viewControllers = orderedTabs;
-	}
-}
-
-// Override to allow orientations other than
-// the default portrait orientation.
-- (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation {
-    // Return YES for supported orientations
-    return YES;
-}
-
 
 -(BOOL) webView:(UIWebView *)inWeb shouldStartLoadWithRequest:(NSURLRequest *)inRequest navigationType:(UIWebViewNavigationType)inType {
 	//In local html pages being displayed, links are opened in Mobile Safari instead of the webview
@@ -166,14 +98,6 @@
      Use this method to release shared resources, save user data, invalidate timers, and store enough application state information to restore your application to its current state in case it is terminated later. 
      If your application supports background execution, called instead of applicationWillTerminate: when the user quits.
      */
-	NSMutableArray *savedOrder = [NSMutableArray arrayWithCapacity:11];
-	NSArray *tabOrderToSave = tabBarController.viewControllers;
-	for (UIViewController *tempController in tabOrderToSave)
-		[savedOrder addObject:tempController.tabBarItem.title];
-	
-	[[NSUserDefaults standardUserDefaults] setObject:savedOrder forKey:@"savedTabOrder"];
-	NSLog(@"Saved tab bar order");
-	NSLog(@" %@",savedOrder);
 }
 
 

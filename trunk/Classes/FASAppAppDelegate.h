@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "WebConnection.h"
 
 @interface FASAppAppDelegate : NSObject <UIApplicationDelegate, UIScrollViewDelegate, UIWebViewDelegate> {
     UIWindow *window;
@@ -41,10 +42,8 @@
 	IBOutlet UIWebView *aboutUsView;
 	
 	//SFU Connect
-	IBOutlet UIWebView *connectView;
+	//IBOutlet UIWebView *connectView;
 }
-
-- (void)setTabBarOrderIfSaved;
 
 @property (nonatomic, retain) IBOutlet UIWindow *window;
 @property (nonatomic, retain) IBOutlet UITabBarController *tabBarController;
