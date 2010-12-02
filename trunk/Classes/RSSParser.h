@@ -11,7 +11,7 @@
 #import <Foundation/Foundation.h>
 
 
-@interface RSSParser : NSObject {
+@interface RSSParser : NSObject<NSXMLParserDelegate> {
 	
 	
 @private

@@ -33,6 +33,9 @@
 		[eventTable reloadData];
 		[eventsParser release];
 	}
+	
+	//Apply color to the navigation controller
+	self.navigationController.navigationBar.tintColor = [UIColor colorWithRed:0.710 green:0.067 blue:0.102 alpha:1.00];
 }
 
 

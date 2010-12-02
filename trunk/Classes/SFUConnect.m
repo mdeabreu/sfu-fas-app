@@ -33,12 +33,17 @@
 	bi = [[UIBarButtonItem alloc] initWithTitle:@"►" style:UIBarButtonItemStyleBordered target:webView action:@selector(goForward)];
 	[buttons addObject:bi];
 	[bi release];
+	//Apply color to the buttons and the toolbar
+	tools.tintColor = [UIColor colorWithRed:0.710 green:0.067 blue:0.102 alpha:1.00];
 	//Put the buttons in the toolbar
 	[tools setItems:buttons animated:NO];
 	[buttons release];
 	//Put the toolbar in the navbar
 	self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithCustomView:tools];
 	[tools release];
+	
+	//Apply color to the navigation controller
+	self.navigationController.navigationBar.tintColor = [UIColor colorWithRed:0.710 green:0.067 blue:0.102 alpha:1.00];
 	
 	//Check if the device has an active net connection
 	BOOL conTest = [WebConnection isConnected];

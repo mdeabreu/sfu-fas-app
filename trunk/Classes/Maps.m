@@ -1,40 +1,46 @@
     //
-//  AboutUs.m
+//  Maps.m
 //  FASApp
 //
-//  Created by Matthew DeAbreu on 10-11-29.
+//  Created by Matthew DeAbreu on 10-12-02.
 //  Copyright 2010 Homebaked Computer Solutions. All rights reserved.
 //
 
-#import "AboutUs.h"
+#import "Maps.h"
 
-@implementation AboutUs
-@synthesize webView;
+
+@implementation Maps
+
+@synthesize map, mapsView;
 
 - (void)viewDidAppear:(BOOL)animated {
 	[super viewDidLoad];
 	
-	//Ensure properly sized views after rotation
-	webView.autoresizesSubviews = YES;
-	webView.autoresizingMask = (UIViewAutoresizingFlexibleHeight | UIViewAutoresizingFlexibleWidth);
+	//A string containing the path of the map
+	NSString *mapFile = [[NSBundle mainBundle] pathForResource:@"map" ofType:@"gif"];
+	//Load the data of the map into the application
+	NSData *mapData = [NSData dataWithContentsOfFile:mapFile];
+	//Put the map into the image view
+	UIImageView *tempImageView = [[UIImageView alloc] initWithImage:[UIImage imageWithData:mapData]];
+	[self setMap:tempImageView];
+	[tempImageView release];
 	
-	//Preparing the page
-	NSString *File = [[NSBundle mainBundle] pathForResource:@"aboutUs" ofType:@"html"];
-	NSData *Data = [NSData dataWithContentsOfFile:File];
-	
-	//Loading the page
-	[webView loadData:Data MIMEType:@"text/html" textEncodingName:@"UTF-8" baseURL:[NSURL URLWithString:@""]];
+	//Settings for the view including the size of the map, max/min zooms and the default zoom level
+	mapsView.contentSize = CGSizeMake(map.frame.size.width, map.frame.size.height);
+	mapsView.maximumZoomScale = 1.5;
+	mapsView.minimumZoomScale = 0.30;
+	mapsView.clipsToBounds = YES;
+	mapsView.delegate = self;
+    [mapsView addSubview:map];
+	mapsView.zoomScale = 0.30;
 	
 	//Apply color to the navigation controller
 	self.navigationController.navigationBar.tintColor = [UIColor colorWithRed:0.710 green:0.067 blue:0.102 alpha:1.00];
-	
-	webView.delegate = self;
 }
 
-- (BOOL) webView:(UIWebView *)inWeb shouldStartLoadWithRequest:(NSURLRequest *)inRequest navigationType:(UIWebViewNavigationType)inType {
-	//In local html pages being displayed, links are opened in Mobile Safari instead of the webview
-	[[UIApplication sharedApplication] openURL:[inRequest URL]];
-	return NO;
+- (UIView *)viewForZoomingInScrollView:(UIScrollView *)scrollView {
+	//Enables pinch to zoom in the map view
+	return map;
 }
 
 /*
@@ -83,7 +89,6 @@
 
 
 - (void)dealloc {
-	[webView release];
     [super dealloc];
 }
 

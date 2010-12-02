@@ -10,7 +10,7 @@
 
 @implementation FASAppAppDelegate
 
-@synthesize window, map, tabBarController;
+@synthesize window, tabBarController;
 
 
 #pragma mark -
@@ -20,26 +20,8 @@
     
 	[self restoreTabOrder];
 	
-	/*
-	 * Maps
-	 */
-	//A string containing the path of the map
-	NSString *mapFile = [[NSBundle mainBundle] pathForResource:@"map" ofType:@"gif"];
-	//Load the data of the map into the application
-	NSData *mapData = [NSData dataWithContentsOfFile:mapFile];
-	//Put the map into the image view
-	UIImageView *tempImageView = [[UIImageView alloc] initWithImage:[UIImage imageWithData:mapData]];
-	[self setMap:tempImageView];
-	[tempImageView release];
-	
-	//Settings for the view including the size of the map, max/min zooms and the default zoom level
-	mapsView.contentSize = CGSizeMake(map.frame.size.width, map.frame.size.height);
-	mapsView.maximumZoomScale = 1.5;
-	mapsView.minimumZoomScale = 0.30;
-	mapsView.clipsToBounds = YES;
-	mapsView.delegate = self;
-    [mapsView addSubview:map];
-	mapsView.zoomScale = 0.30;
+	//Apply color to the More navigation bar
+	tabBarController.moreNavigationController.navigationBar.tintColor = [UIColor colorWithRed:0.710 green:0.067 blue:0.102 alpha:1.00];
 	
 	[window addSubview:tabBarController.view];
 	
@@ -47,11 +29,6 @@
     [window makeKeyAndVisible];
     
     return YES;
-}
-
-- (UIView *)viewForZoomingInScrollView:(UIScrollView *)scrollView {
-	//Enables pinch to zoom in the map view
-	return map;
 }
 
 - (void)saveTabOrder {
@@ -137,7 +114,6 @@
 
 - (void)dealloc {
     [window release];
-	[map release];
 	[tabBarController release];
     [super dealloc];
 }

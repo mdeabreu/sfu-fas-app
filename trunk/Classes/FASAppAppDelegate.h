@@ -12,10 +12,6 @@
 @interface FASAppAppDelegate : NSObject <UIApplicationDelegate, UIScrollViewDelegate, UIWebViewDelegate> {
     UIWindow *window;
 	UITabBarController *tabBarController;
-	
-	//Maps
-	IBOutlet UIScrollView *mapsView;
-	UIImageView *map;
 }
 
 - (void)saveTabOrder;
@@ -23,7 +19,6 @@
 
 @property (nonatomic, retain) IBOutlet UIWindow *window;
 @property (nonatomic, retain) IBOutlet UITabBarController *tabBarController;
-@property (nonatomic, retain) UIImageView *map;
 
 @end
 
