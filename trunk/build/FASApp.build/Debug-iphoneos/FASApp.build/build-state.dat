@@ -1,1557 +1,0 @@
-TFASApp
-v7
-r0
-t312942701.151387
-cCheck dependencies
-cCpResource build/Debug-iphoneos/FASApp.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/ResourceRules.plist
-cProcessInfoPlistFile /Users/matthew/Desktop/CMPT275/FASApp/build/Debug-iphoneos/FASApp.app/Info.plist FASApp-Info.plist
-cCompileXIB /Users/matthew/Desktop/CMPT275/FASApp/MainWindow.xib
-cCpResource build/Debug-iphoneos/FASApp.app/map.gif map.gif
-cCpResource build/Debug-iphoneos/FASApp.app/aboutFAS.html aboutFAS.html
-cCpResource build/Debug-iphoneos/FASApp.app/template.html template.html
-cCpResource build/Debug-iphoneos/FASApp.app/contact.html contact.html
-cCpResource build/Debug-iphoneos/FASApp.app/aboutUs.html aboutUs.html
-cCopyPNGFile /Users/matthew/Desktop/CMPT275/FASApp/build/Debug-iphoneos/FASApp.app/icon.png icon.png
-cCpResource build/Debug-iphoneos/FASApp.app/faculty.html faculty.html
-cCompileXIB /Users/matthew/Desktop/CMPT275/FASApp/EventsList.xib
-cCompileXIB /Users/matthew/Desktop/CMPT275/FASApp/FeedOption.xib
-cCompileXIB /Users/matthew/Desktop/CMPT275/FASApp/NewsList.xib
-cCompileXIB /Users/matthew/Desktop/CMPT275/FASApp/WebViewController.xib
-cCompileXIB /Users/matthew/Desktop/CMPT275/FASApp/DetailView.xib
-cCpResource build/Debug-iphoneos/FASApp.app/deansMessage.html deansMessage.html
-cCpResource build/Debug-iphoneos/FASApp.app/offline.html offline.html
-cCompileXIB /Users/matthew/Desktop/CMPT275/FASApp/SFUConnect.xib
-cCompileXIB /Users/matthew/Desktop/CMPT275/FASApp/Bulletins.xib
-cCompileXIB /Users/matthew/Desktop/CMPT275/FASApp/Contacts.xib
-cCompileXIB /Users/matthew/Desktop/CMPT275/FASApp/Directory.xib
-cCompileXIB /Users/matthew/Desktop/CMPT275/FASApp/Message.xib
-cCompileXIB /Users/matthew/Desktop/CMPT275/FASApp/AboutFAS.xib
-cCompileXIB /Users/matthew/Desktop/CMPT275/FASApp/AboutUs.xib
-cProcessPCH /var/folders/Bs/BsR3qIplGWWwc9MfqHrARk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FASApp_Prefix-fowfaqrvktaijxbnjezubgjfifqn/FASApp_Prefix.pch.gch FASApp_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
-cProcessPCH /var/folders/Bs/BsR3qIplGWWwc9MfqHrARk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FASApp_Prefix-bjlesocrlrvcpwftthbnfrhngptq/FASApp_Prefix.pch.gch FASApp_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/FASApp.build/Debug-iphoneos/FASApp.build/Objects-normal/armv6/main.o /Users/matthew/Desktop/CMPT275/FASApp/main.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/FASApp.build/Debug-iphoneos/FASApp.build/Objects-normal/armv6/FASAppAppDelegate.o /Users/matthew/Desktop/CMPT275/FASApp/Classes/FASAppAppDelegate.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/FASApp.build/Debug-iphoneos/FASApp.build/Objects-normal/armv6/DetailViewController.o /Users/matthew/Desktop/CMPT275/FASApp/Classes/DetailViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/FASApp.build/Debug-iphoneos/FASApp.build/Objects-normal/armv6/EventsList.o /Users/matthew/Desktop/CMPT275/FASApp/Classes/EventsList.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/FASApp.build/Debug-iphoneos/FASApp.build/Objects-normal/armv6/FeedOption.o /Users/matthew/Desktop/CMPT275/FASApp/Classes/FeedOption.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/FASApp.build/Debug-iphoneos/FASApp.build/Objects-normal/armv6/NewsList.o /Users/matthew/Desktop/CMPT275/FASApp/Classes/NewsList.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/FASApp.build/Debug-iphoneos/FASApp.build/Objects-normal/armv6/RSSParser.o /Users/matthew/Desktop/CMPT275/FASApp/Classes/RSSParser.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/FASApp.build/Debug-iphoneos/FASApp.build/Objects-normal/armv6/WebViewController.o /Users/matthew/Desktop/CMPT275/FASApp/Classes/WebViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/FASApp.build/Debug-iphoneos/FASApp.build/Objects-normal/armv6/FASTabBarController.o /Users/matthew/Desktop/CMPT275/FASApp/Classes/FASTabBarController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/FASApp.build/Debug-iphoneos/FASApp.build/Objects-normal/armv6/WebConnection.o /Users/matthew/Desktop/CMPT275/FASApp/Classes/WebConnection.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/FASApp.build/Debug-iphoneos/FASApp.build/Objects-normal/armv6/SFUConnect.o /Users/matthew/Desktop/CMPT275/FASApp/Classes/SFUConnect.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/FASApp.build/Debug-iphoneos/FASApp.build/Objects-normal/armv6/Bulletins.o /Users/matthew/Desktop/CMPT275/FASApp/Classes/Bulletins.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/FASApp.build/Debug-iphoneos/FASApp.build/Objects-normal/armv6/Contacts.o /Users/matthew/Desktop/CMPT275/FASApp/Classes/Contacts.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/FASApp.build/Debug-iphoneos/FASApp.build/Objects-normal/armv6/Directory.o /Users/matthew/Desktop/CMPT275/FASApp/Classes/Directory.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/FASApp.build/Debug-iphoneos/FASApp.build/Objects-normal/armv6/Message.o /Users/matthew/Desktop/CMPT275/FASApp/Classes/Message.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/FASApp.build/Debug-iphoneos/FASApp.build/Objects-normal/armv6/AboutFAS.o /Users/matthew/Desktop/CMPT275/FASApp/Classes/AboutFAS.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/FASApp.build/Debug-iphoneos/FASApp.build/Objects-normal/armv6/AboutUs.o /Users/matthew/Desktop/CMPT275/FASApp/Classes/AboutUs.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/FASApp.build/Debug-iphoneos/FASApp.build/Objects-normal/armv6/TransparentToolbar.o /Users/matthew/Desktop/CMPT275/FASApp/Classes/TransparentToolbar.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-cLd /Users/matthew/Desktop/CMPT275/FASApp/build/FASApp.build/Debug-iphoneos/FASApp.build/Objects-normal/armv6/FASApp normal armv6
-cCompileC build/FASApp.build/Debug-iphoneos/FASApp.build/Objects-normal/armv7/main.o /Users/matthew/Desktop/CMPT275/FASApp/main.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/FASApp.build/Debug-iphoneos/FASApp.build/Objects-normal/armv7/FASAppAppDelegate.o /Users/matthew/Desktop/CMPT275/FASApp/Classes/FASAppAppDelegate.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/FASApp.build/Debug-iphoneos/FASApp.build/Objects-normal/armv7/DetailViewController.o /Users/matthew/Desktop/CMPT275/FASApp/Classes/DetailViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/FASApp.build/Debug-iphoneos/FASApp.build/Objects-normal/armv7/EventsList.o /Users/matthew/Desktop/CMPT275/FASApp/Classes/EventsList.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/FASApp.build/Debug-iphoneos/FASApp.build/Objects-normal/armv7/FeedOption.o /Users/matthew/Desktop/CMPT275/FASApp/Classes/FeedOption.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/FASApp.build/Debug-iphoneos/FASApp.build/Objects-normal/armv7/NewsList.o /Users/matthew/Desktop/CMPT275/FASApp/Classes/NewsList.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/FASApp.build/Debug-iphoneos/FASApp.build/Objects-normal/armv7/RSSParser.o /Users/matthew/Desktop/CMPT275/FASApp/Classes/RSSParser.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/FASApp.build/Debug-iphoneos/FASApp.build/Objects-normal/armv7/WebViewController.o /Users/matthew/Desktop/CMPT275/FASApp/Classes/WebViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/FASApp.build/Debug-iphoneos/FASApp.build/Objects-normal/armv7/FASTabBarController.o /Users/matthew/Desktop/CMPT275/FASApp/Classes/FASTabBarController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/FASApp.build/Debug-iphoneos/FASApp.build/Objects-normal/armv7/WebConnection.o /Users/matthew/Desktop/CMPT275/FASApp/Classes/WebConnection.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/FASApp.build/Debug-iphoneos/FASApp.build/Objects-normal/armv7/SFUConnect.o /Users/matthew/Desktop/CMPT275/FASApp/Classes/SFUConnect.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/FASApp.build/Debug-iphoneos/FASApp.build/Objects-normal/armv7/Bulletins.o /Users/matthew/Desktop/CMPT275/FASApp/Classes/Bulletins.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/FASApp.build/Debug-iphoneos/FASApp.build/Objects-normal/armv7/Contacts.o /Users/matthew/Desktop/CMPT275/FASApp/Classes/Contacts.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/FASApp.build/Debug-iphoneos/FASApp.build/Objects-normal/armv7/Directory.o /Users/matthew/Desktop/CMPT275/FASApp/Classes/Directory.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/FASApp.build/Debug-iphoneos/FASApp.build/Objects-normal/armv7/Message.o /Users/matthew/Desktop/CMPT275/FASApp/Classes/Message.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/FASApp.build/Debug-iphoneos/FASApp.build/Objects-normal/armv7/AboutFAS.o /Users/matthew/Desktop/CMPT275/FASApp/Classes/AboutFAS.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/FASApp.build/Debug-iphoneos/FASApp.build/Objects-normal/armv7/AboutUs.o /Users/matthew/Desktop/CMPT275/FASApp/Classes/AboutUs.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/FASApp.build/Debug-iphoneos/FASApp.build/Objects-normal/armv7/TransparentToolbar.o /Users/matthew/Desktop/CMPT275/FASApp/Classes/TransparentToolbar.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-cLd /Users/matthew/Desktop/CMPT275/FASApp/build/FASApp.build/Debug-iphoneos/FASApp.build/Objects-normal/armv7/FASApp normal armv7
-cCreateUniversalBinary /Users/matthew/Desktop/CMPT275/FASApp/build/Debug-iphoneos/FASApp.app/FASApp normal "armv6 armv7"
-cGenerateDSYMFile /Users/matthew/Desktop/CMPT275/FASApp/build/Debug-iphoneos/FASApp.app.dSYM /Users/matthew/Desktop/CMPT275/FASApp/build/Debug-iphoneos/FASApp.app/FASApp
-cProcessProductPackaging "/Users/matthew/Library/MobileDevice/Provisioning Profiles/11FD6B6B-BCA7-4A32-961D-743D3C0EAE39.mobileprovision" /Users/matthew/Desktop/CMPT275/FASApp/build/Debug-iphoneos/FASApp.app/embedded.mobileprovision
-cProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/Entitlements.plist /Users/matthew/Desktop/CMPT275/FASApp/build/FASApp.build/Debug-iphoneos/FASApp.build/FASApp.xcent
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk
-c000000004C6DE9E30000000000000110
-t1282271715
-s272
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/Entitlements.plist
-c000000004C578FA900000000000001A7
-t1280806825
-s423
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/ResourceRules.plist
-c000000004C578FA900000000000001E5
-t1280806825
-s485
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
-c000000004C5A51050000000000345F00
-t1280987397
-s3432192
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
-c000000004C5A52B100000000003E1EF0
-t1280987825
-s4071152
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
-c000000004C5A527F0000000000001466
-t1280987775
-s5222
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/System/Library/Frameworks/SystemConfiguration.framework/Headers/SystemConfiguration.h
-c000000004C5A511A0000000000001A58
-t1280987418
-s6744
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/System/Library/Frameworks/SystemConfiguration.framework/SystemConfiguration
-c000000004C5A512E00000000000B0B30
-t1280987438
-s723760
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
-c000000004C62427000000000000009CD
-t1281507952
-s2509
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit
-c000000004C62430F0000000002EBC2B0
-t1281508111
-s49005232
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/usr/include/arpa/inet.h
-c000000004C5790620000000000001533
-t1280807010
-s5427
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/usr/include/netdb.h
-c000000004C57909B000000000000307F
-t1280807067
-s12415
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/usr/include/netinet/in.h
-c000000004C5A4AAE0000000000005462
-t1280985774
-s21602
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/usr/lib/libz.1.1.3.dylib
-c000000004C5A423D0000000000020FF0
-t1280983613
-s135152
-
-N/Users/matthew/Desktop/CMPT275/FASApp/AboutFAS.xib
-c00000000000000000000000000000000
-t2
-s0
-
-N/Users/matthew/Desktop/CMPT275/FASApp/AboutUs.xib
-c00000000000000000000000000000000
-t2
-s0
-
-N/Users/matthew/Desktop/CMPT275/FASApp/Bulletins.xib
-c000000004CF589420000000000005510
-t1291159874
-s21776
-
-N/Users/matthew/Desktop/CMPT275/FASApp/Classes/AboutFAS.h
-c000000004CF48350000000000000014E
-t1291092816
-s334
-i<UIKit/UIKit.h>
-
-N/Users/matthew/Desktop/CMPT275/FASApp/Classes/AboutFAS.m
-c000000004CF57C1600000000000009A4
-t1291156502
-s2468
-i"AboutFAS.h"
-
-N/Users/matthew/Desktop/CMPT275/FASApp/Classes/AboutUs.h
-c000000004CF4831D000000000000014A
-t1291092765
-s330
-i<UIKit/UIKit.h>
-
-N/Users/matthew/Desktop/CMPT275/FASApp/Classes/AboutUs.m
-c000000004CF57C11000000000000099E
-t1291156497
-s2462
-i"AboutUs.h"
-
-N/Users/matthew/Desktop/CMPT275/FASApp/Classes/Bulletins.h
-c000000004CF6DD120000000000000280
-t1291246866
-s640
-i<UIKit/UIKit.h>
-i"WebConnection.h"
-i"TransparentToolbar.h"
-
-N/Users/matthew/Desktop/CMPT275/FASApp/Classes/Bulletins.m
-c000000004CF6E0820000000000001006
-t1291247746
-s4102
-i"Bulletins.h"
-
-N/Users/matthew/Desktop/CMPT275/FASApp/Classes/Contacts.h
-c000000004CF48364000000000000014E
-t1291092836
-s334
-i<UIKit/UIKit.h>
-
-N/Users/matthew/Desktop/CMPT275/FASApp/Classes/Contacts.m
-c000000004CF585A1000000000000099E
-t1291158945
-s2462
-i"Contacts.h"
-
-N/Users/matthew/Desktop/CMPT275/FASApp/Classes/DetailViewController.h
-c000000004CE9D57700000000000001A6
-t1290392951
-s422
-i<UIKit/UIKit.h>
-
-N/Users/matthew/Desktop/CMPT275/FASApp/Classes/DetailViewController.m
-c000000004CE9D577000000000000058B
-t1290392951
-s1419
-i"DetailViewController.h"
-
-N/Users/matthew/Desktop/CMPT275/FASApp/Classes/Directory.h
-c000000004CF4835D0000000000000150
-t1291092829
-s336
-i<UIKit/UIKit.h>
-
-N/Users/matthew/Desktop/CMPT275/FASApp/Classes/Directory.m
-c000000004CF57C1600000000000009A6
-t1291156502
-s2470
-i"Directory.h"
-
-N/Users/matthew/Desktop/CMPT275/FASApp/Classes/EventsList.h
-c000000004CE9D5770000000000000141
-t1290392951
-s321
-i<UIKit/UIKit.h>
-
-N/Users/matthew/Desktop/CMPT275/FASApp/Classes/EventsList.m
-c000000004CE9D5770000000000000D28
-t1290392951
-s3368
-i"EventsList.h"
-i"DetailViewController.h"
-i"RSSParser.h"
-
-N/Users/matthew/Desktop/CMPT275/FASApp/Classes/FASAppAppDelegate.h
-c000000004CF6E33D00000000000002A9
-t1291248445
-s681
-i<UIKit/UIKit.h>
-i"WebConnection.h"
-
-N/Users/matthew/Desktop/CMPT275/FASApp/Classes/FASAppAppDelegate.m
-c000000004CF6E433000000000000129B
-t1291248691
-s4763
-i"FASAppAppDelegate.h"
-
-N/Users/matthew/Desktop/CMPT275/FASApp/Classes/FASTabBarController.h
-c000000004CEC530B00000000000000FA
-t1290556171
-s250
-i<UIKit/UIKit.h>
-
-N/Users/matthew/Desktop/CMPT275/FASApp/Classes/FASTabBarController.m
-c000000004CF6A6360000000000000716
-t1291232822
-s1814
-i"FASTabBarController.h"
-
-N/Users/matthew/Desktop/CMPT275/FASApp/Classes/FeedOption.h
-c000000004CE9D5770000000000000138
-t1290392951
-s312
-i<UIKit/UIKit.h>
-
-N/Users/matthew/Desktop/CMPT275/FASApp/Classes/FeedOption.m
-c000000004CE9D577000000000000147E
-t1290392951
-s5246
-i"FeedOption.h"
-
-N/Users/matthew/Desktop/CMPT275/FASApp/Classes/Message.h
-c000000004CF48356000000000000014C
-t1291092822
-s332
-i<UIKit/UIKit.h>
-
-N/Users/matthew/Desktop/CMPT275/FASApp/Classes/Message.m
-c000000004CF57C1600000000000009A5
-t1291156502
-s2469
-i"Message.h"
-
-N/Users/matthew/Desktop/CMPT275/FASApp/Classes/NewsList.h
-c000000004CE9D5770000000000000127
-t1290392951
-s295
-i<UIKit/UIKit.h>
-
-N/Users/matthew/Desktop/CMPT275/FASApp/Classes/NewsList.m
-c000000004CE9D577000000000000107B
-t1290392951
-s4219
-i"NewsList.h"
-i"WebViewController.h"
-i"RSSParser.h"
-i"FeedOption.h"
-
-N/Users/matthew/Desktop/CMPT275/FASApp/Classes/RSSParser.h
-c000000004CE9D57700000000000002AE
-t1290392951
-s686
-i<Foundation/Foundation.h>
-
-N/Users/matthew/Desktop/CMPT275/FASApp/Classes/RSSParser.m
-c000000004CE9D5770000000000001096
-t1290392951
-s4246
-i"RSSParser.h"
-
-N/Users/matthew/Desktop/CMPT275/FASApp/Classes/SFUConnect.h
-c000000004CF6DFD30000000000000282
-t1291247571
-s642
-i<UIKit/UIKit.h>
-i"WebConnection.h"
-i"TransparentToolbar.h"
-
-N/Users/matthew/Desktop/CMPT275/FASApp/Classes/SFUConnect.m
-c000000004CF6E05400000000000013B7
-t1291247700
-s5047
-i"SFUConnect.h"
-
-N/Users/matthew/Desktop/CMPT275/FASApp/Classes/TransparentToolbar.h
-c000000004CF6DC5C00000000000000F9
-t1291246684
-s249
-i<Foundation/Foundation.h>
-
-N/Users/matthew/Desktop/CMPT275/FASApp/Classes/TransparentToolbar.m
-c000000004CF6DC95000000000000031B
-t1291246741
-s795
-i"TransparentToolbar.h"
-
-N/Users/matthew/Desktop/CMPT275/FASApp/Classes/WebConnection.h
-c000000004CF430260000000000000203
-t1291071526
-s515
-i<Foundation/Foundation.h>
-i<SystemConfiguration/SystemConfiguration.h>
-i<netinet/in.h>
-i<arpa/inet.h>
-i<netdb.h>
-
-N/Users/matthew/Desktop/CMPT275/FASApp/Classes/WebConnection.m
-c000000004CF5859C00000000000004D6
-t1291158940
-s1238
-i"WebConnection.h"
-
-N/Users/matthew/Desktop/CMPT275/FASApp/Classes/WebViewController.h
-c000000004CE9D57700000000000001D1
-t1290392951
-s465
-i<UIKit/UIKit.h>
-
-N/Users/matthew/Desktop/CMPT275/FASApp/Classes/WebViewController.m
-c000000004CEA08870000000000000561
-t1290406023
-s1377
-i"WebViewController.h"
-
-N/Users/matthew/Desktop/CMPT275/FASApp/Contacts.xib
-c000000004CF472C50000000000004285
-t1291088581
-s17029
-
-N/Users/matthew/Desktop/CMPT275/FASApp/DetailView.xib
-c000000004CEA073B0000000000005B87
-t1290405691
-s23431
-
-N/Users/matthew/Desktop/CMPT275/FASApp/Directory.xib
-c000000004CF47A1900000000000043AA
-t1291090457
-s17322
-
-N/Users/matthew/Desktop/CMPT275/FASApp/EventsList.xib
-c000000004CE9D5770000000000004551
-t1290392951
-s17745
-
-N/Users/matthew/Desktop/CMPT275/FASApp/FASApp_Prefix.pch
-c000000004CCDDE1C00000000000000B5
-t1288560156
-s181
-i<Foundation/Foundation.h>
-i<UIKit/UIKit.h>
-
-N/Users/matthew/Desktop/CMPT275/FASApp/FeedOption.xib
-c000000004CE9D57700000000000041E1
-t1290392951
-s16865
-
-N/Users/matthew/Desktop/CMPT275/FASApp/MainWindow.xib
-c000000004CF6E22100000000000133CD
-t1291248161
-s78797
-
-N/Users/matthew/Desktop/CMPT275/FASApp/Message.xib
-c000000004CF47E050000000000004280
-t1291091461
-s17024
-
-N/Users/matthew/Desktop/CMPT275/FASApp/NewsList.xib
-c000000004CE9D5770000000000004547
-t1290392951
-s17735
-
-N/Users/matthew/Desktop/CMPT275/FASApp/SFUConnect.xib
-c000000004CF58A0900000000000053B3
-t1291160073
-s21427
-
-N/Users/matthew/Desktop/CMPT275/FASApp/WebViewController.xib
-c000000004CE9D57700000000000043BE
-t1290392951
-s17342
-
-N/Users/matthew/Desktop/CMPT275/FASApp/aboutFAS.html
-c000000004CEA09680000000000002034
-t1290406248
-s8244
-
-N/Users/matthew/Desktop/CMPT275/FASApp/aboutUs.html
-c000000004CE5814A0000000000001B1A
-t1290109258
-s6938
-
-N/Users/matthew/Desktop/CMPT275/FASApp/build/Debug-iphoneos/FASApp.app
-t1291249901
-s986
-
-N/Users/matthew/Desktop/CMPT275/FASApp/build/Debug-iphoneos/FASApp.app.dSYM
-t1291249570
-s102
-
-N/Users/matthew/Desktop/CMPT275/FASApp/build/Debug-iphoneos/FASApp.app/AboutFAS.nib
-t2
-s0
-
-N/Users/matthew/Desktop/CMPT275/FASApp/build/Debug-iphoneos/FASApp.app/AboutUs.nib
-t2
-s0
-
-N/Users/matthew/Desktop/CMPT275/FASApp/build/Debug-iphoneos/FASApp.app/Bulletins.nib
-t1291249567
-s2168
-
-N/Users/matthew/Desktop/CMPT275/FASApp/build/Debug-iphoneos/FASApp.app/Contacts.nib
-t1291249567
-s1594
-
-N/Users/matthew/Desktop/CMPT275/FASApp/build/Debug-iphoneos/FASApp.app/DetailView.nib
-t1291249566
-s3318
-
-N/Users/matthew/Desktop/CMPT275/FASApp/build/Debug-iphoneos/FASApp.app/Directory.nib
-t1291249567
-s1639
-
-N/Users/matthew/Desktop/CMPT275/FASApp/build/Debug-iphoneos/FASApp.app/EventsList.nib
-t1291249565
-s1563
-
-N/Users/matthew/Desktop/CMPT275/FASApp/build/Debug-iphoneos/FASApp.app/FASApp
-t1291249570
-s174416
-
-N/Users/matthew/Desktop/CMPT275/FASApp/build/Debug-iphoneos/FASApp.app/FeedOption.nib
-t1291249565
-s1467
-
-N/Users/matthew/Desktop/CMPT275/FASApp/build/Debug-iphoneos/FASApp.app/Info.plist
-t1291249564
-s784
-
-N/Users/matthew/Desktop/CMPT275/FASApp/build/Debug-iphoneos/FASApp.app/MainWindow.nib
-t1291249565
-s8906
-
-N/Users/matthew/Desktop/CMPT275/FASApp/build/Debug-iphoneos/FASApp.app/Message.nib
-t1291249567
-s1594
-
-N/Users/matthew/Desktop/CMPT275/FASApp/build/Debug-iphoneos/FASApp.app/NewsList.nib
-t1291249566
-s1562
-
-N/Users/matthew/Desktop/CMPT275/FASApp/build/Debug-iphoneos/FASApp.app/PkgInfo
-t1291249564
-s8
-
-N/Users/matthew/Desktop/CMPT275/FASApp/build/Debug-iphoneos/FASApp.app/ResourceRules.plist
-t1291249564
-s485
-
-N/Users/matthew/Desktop/CMPT275/FASApp/build/Debug-iphoneos/FASApp.app/SFUConnect.nib
-t1291249566
-s2149
-
-N/Users/matthew/Desktop/CMPT275/FASApp/build/Debug-iphoneos/FASApp.app/WebViewController.nib
-t1291249566
-s1653
-
-N/Users/matthew/Desktop/CMPT275/FASApp/build/Debug-iphoneos/FASApp.app/aboutFAS.html
-t1291249564
-s8244
-
-N/Users/matthew/Desktop/CMPT275/FASApp/build/Debug-iphoneos/FASApp.app/aboutUs.html
-t1291249564
-s6938
-
-N/Users/matthew/Desktop/CMPT275/FASApp/build/Debug-iphoneos/FASApp.app/contact.html
-t1291249564
-s6163
-
-N/Users/matthew/Desktop/CMPT275/FASApp/build/Debug-iphoneos/FASApp.app/deansMessage.html
-t1291249566
-s7803
-
-N/Users/matthew/Desktop/CMPT275/FASApp/build/Debug-iphoneos/FASApp.app/embedded.mobileprovision
-t1291249570
-s7188
-
-N/Users/matthew/Desktop/CMPT275/FASApp/build/Debug-iphoneos/FASApp.app/faculty.html
-t1291249565
-s21180
-
-N/Users/matthew/Desktop/CMPT275/FASApp/build/Debug-iphoneos/FASApp.app/icon.png
-t1291249565
-s5372
-
-N/Users/matthew/Desktop/CMPT275/FASApp/build/Debug-iphoneos/FASApp.app/map.gif
-t1291249564
-s2589812
-
-N/Users/matthew/Desktop/CMPT275/FASApp/build/Debug-iphoneos/FASApp.app/offline.html
-t1291249566
-s5351
-
-N/Users/matthew/Desktop/CMPT275/FASApp/build/Debug-iphoneos/FASApp.app/template.html
-t1291249564
-s10433
-
-N/Users/matthew/Desktop/CMPT275/FASApp/build/FASApp.build/Debug-iphoneos/FASApp.build/FASApp.xcent
-t1291249570
-s420
-
-N/Users/matthew/Desktop/CMPT275/FASApp/build/FASApp.build/Debug-iphoneos/FASApp.build/Objects-normal/armv6/AboutFAS.o
-t1291249568
-s44620
-
-N/Users/matthew/Desktop/CMPT275/FASApp/build/FASApp.build/Debug-iphoneos/FASApp.build/Objects-normal/armv6/AboutUs.o
-t1291249568
-s44588
-
-N/Users/matthew/Desktop/CMPT275/FASApp/build/FASApp.build/Debug-iphoneos/FASApp.build/Objects-normal/armv6/Bulletins.o
-t1291249568
-s48848
-
-N/Users/matthew/Desktop/CMPT275/FASApp/build/FASApp.build/Debug-iphoneos/FASApp.build/Objects-normal/armv6/Contacts.o
-t1291249568
-s44616
-
-N/Users/matthew/Desktop/CMPT275/FASApp/build/FASApp.build/Debug-iphoneos/FASApp.build/Objects-normal/armv6/DetailViewController.o
-t1291249568
-s39876
-
-N/Users/matthew/Desktop/CMPT275/FASApp/build/FASApp.build/Debug-iphoneos/FASApp.build/Objects-normal/armv6/Directory.o
-t1291249568
-s44648
-
-N/Users/matthew/Desktop/CMPT275/FASApp/build/FASApp.build/Debug-iphoneos/FASApp.build/Objects-normal/armv6/EventsList.o
-t1291249568
-s44176
-
-N/Users/matthew/Desktop/CMPT275/FASApp/build/FASApp.build/Debug-iphoneos/FASApp.build/Objects-normal/armv6/FASApp
-t1291249569
-s78080
-
-N/Users/matthew/Desktop/CMPT275/FASApp/build/FASApp.build/Debug-iphoneos/FASApp.build/Objects-normal/armv6/FASApp.LinkFileList
-c000000004CF6E79C0000000000000875
-t1291249564
-s2165
-
-N/Users/matthew/Desktop/CMPT275/FASApp/build/FASApp.build/Debug-iphoneos/FASApp.build/Objects-normal/armv6/FASAppAppDelegate.o
-t1291249568
-s60932
-
-N/Users/matthew/Desktop/CMPT275/FASApp/build/FASApp.build/Debug-iphoneos/FASApp.build/Objects-normal/armv6/FASTabBarController.o
-t1291249568
-s38104
-
-N/Users/matthew/Desktop/CMPT275/FASApp/build/FASApp.build/Debug-iphoneos/FASApp.build/Objects-normal/armv6/FeedOption.o
-t1291249568
-s42136
-
-N/Users/matthew/Desktop/CMPT275/FASApp/build/FASApp.build/Debug-iphoneos/FASApp.build/Objects-normal/armv6/Message.o
-t1291249568
-s44596
-
-N/Users/matthew/Desktop/CMPT275/FASApp/build/FASApp.build/Debug-iphoneos/FASApp.build/Objects-normal/armv6/NewsList.o
-t1291249568
-s48228
-
-N/Users/matthew/Desktop/CMPT275/FASApp/build/FASApp.build/Debug-iphoneos/FASApp.build/Objects-normal/armv6/RSSParser.o
-t1291249568
-s53764
-
-N/Users/matthew/Desktop/CMPT275/FASApp/build/FASApp.build/Debug-iphoneos/FASApp.build/Objects-normal/armv6/SFUConnect.o
-t1291249568
-s50464
-
-N/Users/matthew/Desktop/CMPT275/FASApp/build/FASApp.build/Debug-iphoneos/FASApp.build/Objects-normal/armv6/TransparentToolbar.o
-t1291249569
-s36628
-
-N/Users/matthew/Desktop/CMPT275/FASApp/build/FASApp.build/Debug-iphoneos/FASApp.build/Objects-normal/armv6/WebConnection.o
-t1291249568
-s8424
-
-N/Users/matthew/Desktop/CMPT275/FASApp/build/FASApp.build/Debug-iphoneos/FASApp.build/Objects-normal/armv6/WebViewController.o
-t1291249568
-s40108
-
-N/Users/matthew/Desktop/CMPT275/FASApp/build/FASApp.build/Debug-iphoneos/FASApp.build/Objects-normal/armv6/main.o
-t1291249568
-s6444
-
-N/Users/matthew/Desktop/CMPT275/FASApp/build/FASApp.build/Debug-iphoneos/FASApp.build/Objects-normal/armv7/AboutFAS.o
-t1291249569
-s44496
-
-N/Users/matthew/Desktop/CMPT275/FASApp/build/FASApp.build/Debug-iphoneos/FASApp.build/Objects-normal/armv7/AboutUs.o
-t1291249569
-s44464
-
-N/Users/matthew/Desktop/CMPT275/FASApp/build/FASApp.build/Debug-iphoneos/FASApp.build/Objects-normal/armv7/Bulletins.o
-t1291249569
-s48564
-
-N/Users/matthew/Desktop/CMPT275/FASApp/build/FASApp.build/Debug-iphoneos/FASApp.build/Objects-normal/armv7/Contacts.o
-t1291249569
-s44492
-
-N/Users/matthew/Desktop/CMPT275/FASApp/build/FASApp.build/Debug-iphoneos/FASApp.build/Objects-normal/armv7/DetailViewController.o
-t1291249569
-s39776
-
-N/Users/matthew/Desktop/CMPT275/FASApp/build/FASApp.build/Debug-iphoneos/FASApp.build/Objects-normal/armv7/Directory.o
-t1291249569
-s44524
-
-N/Users/matthew/Desktop/CMPT275/FASApp/build/FASApp.build/Debug-iphoneos/FASApp.build/Objects-normal/armv7/EventsList.o
-t1291249569
-s43996
-
-N/Users/matthew/Desktop/CMPT275/FASApp/build/FASApp.build/Debug-iphoneos/FASApp.build/Objects-normal/armv7/FASApp
-t1291249570
-s78080
-
-N/Users/matthew/Desktop/CMPT275/FASApp/build/FASApp.build/Debug-iphoneos/FASApp.build/Objects-normal/armv7/FASApp.LinkFileList
-c000000004CF6E79C0000000000000875
-t1291249564
-s2165
-
-N/Users/matthew/Desktop/CMPT275/FASApp/build/FASApp.build/Debug-iphoneos/FASApp.build/Objects-normal/armv7/FASAppAppDelegate.o
-t1291249569
-s60736
-
-N/Users/matthew/Desktop/CMPT275/FASApp/build/FASApp.build/Debug-iphoneos/FASApp.build/Objects-normal/armv7/FASTabBarController.o
-t1291249569
-s38068
-
-N/Users/matthew/Desktop/CMPT275/FASApp/build/FASApp.build/Debug-iphoneos/FASApp.build/Objects-normal/armv7/FeedOption.o
-t1291249569
-s41932
-
-N/Users/matthew/Desktop/CMPT275/FASApp/build/FASApp.build/Debug-iphoneos/FASApp.build/Objects-normal/armv7/Message.o
-t1291249569
-s44472
-
-N/Users/matthew/Desktop/CMPT275/FASApp/build/FASApp.build/Debug-iphoneos/FASApp.build/Objects-normal/armv7/NewsList.o
-t1291249569
-s47920
-
-N/Users/matthew/Desktop/CMPT275/FASApp/build/FASApp.build/Debug-iphoneos/FASApp.build/Objects-normal/armv7/RSSParser.o
-t1291249569
-s53384
-
-N/Users/matthew/Desktop/CMPT275/FASApp/build/FASApp.build/Debug-iphoneos/FASApp.build/Objects-normal/armv7/SFUConnect.o
-t1291249569
-s50136
-
-N/Users/matthew/Desktop/CMPT275/FASApp/build/FASApp.build/Debug-iphoneos/FASApp.build/Objects-normal/armv7/TransparentToolbar.o
-t1291249569
-s36588
-
-N/Users/matthew/Desktop/CMPT275/FASApp/build/FASApp.build/Debug-iphoneos/FASApp.build/Objects-normal/armv7/WebConnection.o
-t1291249569
-s8392
-
-N/Users/matthew/Desktop/CMPT275/FASApp/build/FASApp.build/Debug-iphoneos/FASApp.build/Objects-normal/armv7/WebViewController.o
-t1291249569
-s39984
-
-N/Users/matthew/Desktop/CMPT275/FASApp/build/FASApp.build/Debug-iphoneos/FASApp.build/Objects-normal/armv7/main.o
-t1291249569
-s6428
-
-N/Users/matthew/Desktop/CMPT275/FASApp/contact.html
-c000000004CD30ECD0000000000001813
-t1288900301
-s6163
-
-N/Users/matthew/Desktop/CMPT275/FASApp/deansMessage.html
-c000000004CF47E730000000000001E7B
-t1291091571
-s7803
-
-N/Users/matthew/Desktop/CMPT275/FASApp/faculty.html
-c000000004CE57A7300000000000052BC
-t1290107507
-s21180
-
-N/Users/matthew/Desktop/CMPT275/FASApp/icon.png
-c000000004CCF12810000000000001420
-t1288639105
-s5152
-
-N/Users/matthew/Desktop/CMPT275/FASApp/main.m
-c000000004CCDDE1C0000000000000177
-t1288560156
-s375
-i<UIKit/UIKit.h>
-
-N/Users/matthew/Desktop/CMPT275/FASApp/map.gif
-c000000004CCDDE1C0000000000278474
-t1288560156
-s2589812
-
-N/Users/matthew/Desktop/CMPT275/FASApp/offline.html
-c000000004CF4295300000000000014E7
-t1291069779
-s5351
-
-N/Users/matthew/Desktop/CMPT275/FASApp/template.html
-c000000004CF428DF00000000000028C1
-t1291069663
-s10433
-
-N/Users/matthew/Library/MobileDevice/Provisioning Profiles/11FD6B6B-BCA7-4A32-961D-743D3C0EAE39.mobileprovision
-c000000004CD0A5C00000000000001C14
-t1288742336
-s7188
-
-N/var/folders/Bs/BsR3qIplGWWwc9MfqHrARk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FASApp_Prefix-bjlesocrlrvcpwftthbnfrhngptq/FASApp_Prefix.pch.gch
-t1291160383
-s10294832
-
-N/var/folders/Bs/BsR3qIplGWWwc9MfqHrARk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FASApp_Prefix-fowfaqrvktaijxbnjezubgjfifqn/FASApp_Prefix.pch.gch
-t1291160383
-s9831984
-
-NFASApp-Info.plist
-c000000004CD0A73300000000000003A3
-t1288742707
-s931
-
-CCheck dependencies
-r0
-lSLF07#2@18"Check dependencies312942700#312942700#0(0"0(0#1#0"3343187568374212096#0"0#
-
-CCodeSign /Users/matthew/Desktop/CMPT275/FASApp/build/Debug-iphoneos/FASApp.app
-s312942370.186119
-e312942370.514592
-r1
-xCodeSign
-x/Users/matthew/Desktop/CMPT275/FASApp/build/Debug-iphoneos/FASApp.app
-lSLF07#2@40"CodeSign build/Debug-iphoneos/FASApp.app312942370#312942370#0(0"0(0#0#69"/Users/matthew/Desktop/CMPT275/FASApp/build/Debug-iphoneos/FASApp.app8601822240#642"    cd /Users/matthew/Desktop/CMPT275/FASApp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv _CODESIGN_ALLOCATE_ /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    /usr/bin/codesign -f -s "iPhone Developer: Matthew DeAbreu (T65UL657K7)" --resource-rules=/Users/matthew/Desktop/CMPT275/FASApp/build/Debug-iphoneos/FASApp.app/ResourceRules.plist --entitlements /Users/matthew/Desktop/CMPT275/FASApp/build/FASApp.build/Debug-iphoneos/FASApp.build/FASApp.xcent /Users/matthew/Desktop/CMPT275/FASApp/build/Debug-iphoneos/FASApp.app0#
-
-CCompileC build/FASApp.build/Debug-iphoneos/FASApp.build/Objects-normal/armv6/AboutFAS.o /Users/matthew/Desktop/CMPT275/FASApp/Classes/AboutFAS.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-s312942368.882971
-e312942368.995680
-r1
-xCompileC
-xbuild/FASApp.build/Debug-iphoneos/FASApp.build/Objects-normal/armv6/AboutFAS.o
-x/Users/matthew/Desktop/CMPT275/FASApp/Classes/AboutFAS.m
-xnormal
-xarmv6
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@64"Compile /Users/matthew/Desktop/CMPT275/FASApp/Classes/AboutFAS.m312942368#312942368#0(0"0(0#0#56"/Users/matthew/Desktop/CMPT275/FASApp/Classes/AboutFAS.m8603753152#1709"    cd /Users/matthew/Desktop/CMPT275/FASApp    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.1 -iquote /Users/matthew/Desktop/CMPT275/FASApp/build/FASApp.build/Debug-iphoneos/FASApp.build/FASApp-generated-files.hmap -I/Users/matthew/Desktop/CMPT275/FASApp/build/FASApp.build/Debug-iphoneos/FASApp.build/FASApp-own-target-headers.hmap -I/Users/matthew/Desktop/CMPT275/FASApp/build/FASApp.build/Debug-iphoneos/FASApp.build/FASApp-all-target-headers.hmap -iquote /Users/matthew/Desktop/CMPT275/FASApp/build/FASApp.build/Debug-iphoneos/FASApp.build/FASApp-project-headers.hmap -F/Users/matthew/Desktop/CMPT275/FASApp/build/Debug-iphoneos -I/Users/matthew/Desktop/CMPT275/FASApp/build/Debug-iphoneos/include -I/Users/matthew/Desktop/CMPT275/FASApp/build/FASApp.build/Debug-iphoneos/FASApp.build/DerivedSources/armv6 -I/Users/matthew/Desktop/CMPT275/FASApp/build/FASApp.build/Debug-iphoneos/FASApp.build/DerivedSources -include /var/folders/Bs/BsR3qIplGWWwc9MfqHrARk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FASApp_Prefix-fowfaqrvktaijxbnjezubgjfifqn/FASApp_Prefix.pch -c /Users/matthew/Desktop/CMPT275/FASApp/Classes/AboutFAS.m -o /Users/matthew/Desktop/CMPT275/FASApp/build/FASApp.build/Debug-iphoneos/FASApp.build/Objects-normal/armv6/AboutFAS.o0#
-
-CCompileC build/FASApp.build/Debug-iphoneos/FASApp.build/Objects-normal/armv6/AboutUs.o /Users/matthew/Desktop/CMPT275/FASApp/Classes/AboutUs.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-s312942368.902904
-e312942368.985603
-r1
-xCompileC
-xbuild/FASApp.build/Debug-iphoneos/FASApp.build/Objects-normal/armv6/AboutUs.o
-x/Users/matthew/Desktop/CMPT275/FASApp/Classes/AboutUs.m
-xnormal
-xarmv6
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@63"Compile /Users/matthew/Desktop/CMPT275/FASApp/Classes/AboutUs.m312942368#312942368#0(0"0(0#0#55"/Users/matthew/Desktop/CMPT275/FASApp/Classes/AboutUs.m8602351680#1707"    cd /Users/matthew/Desktop/CMPT275/FASApp    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.1 -iquote /Users/matthew/Desktop/CMPT275/FASApp/build/FASApp.build/Debug-iphoneos/FASApp.build/FASApp-generated-files.hmap -I/Users/matthew/Desktop/CMPT275/FASApp/build/FASApp.build/Debug-iphoneos/FASApp.build/FASApp-own-target-headers.hmap -I/Users/matthew/Desktop/CMPT275/FASApp/build/FASApp.build/Debug-iphoneos/FASApp.build/FASApp-all-target-headers.hmap -iquote /Users/matthew/Desktop/CMPT275/FASApp/build/FASApp.build/Debug-iphoneos/FASApp.build/FASApp-project-headers.hmap -F/Users/matthew/Desktop/CMPT275/FASApp/build/Debug-iphoneos -I/Users/matthew/Desktop/CMPT275/FASApp/build/Debug-iphoneos/include -I/Users/matthew/Desktop/CMPT275/FASApp/build/FASApp.build/Debug-iphoneos/FASApp.build/DerivedSources/armv6 -I/Users/matthew/Desktop/CMPT275/FASApp/build/FASApp.build/Debug-iphoneos/FASApp.build/DerivedSources -include /var/folders/Bs/BsR3qIplGWWwc9MfqHrARk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FASApp_Prefix-fowfaqrvktaijxbnjezubgjfifqn/FASApp_Prefix.pch -c /Users/matthew/Desktop/CMPT275/FASApp/Classes/AboutUs.m -o /Users/matthew/Desktop/CMPT275/FASApp/build/FASApp.build/Debug-iphoneos/FASApp.build/Objects-normal/armv6/AboutUs.o0#
-
-CCompileC build/FASApp.build/Debug-iphoneos/FASApp.build/Objects-normal/armv6/Bulletins.o /Users/matthew/Desktop/CMPT275/FASApp/Classes/Bulletins.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-s312942368.668004
-e312942368.792957
-r1
-xCompileC
-xbuild/FASApp.build/Debug-iphoneos/FASApp.build/Objects-normal/armv6/Bulletins.o
-x/Users/matthew/Desktop/CMPT275/FASApp/Classes/Bulletins.m
-xnormal
-xarmv6
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@65"Compile /Users/matthew/Desktop/CMPT275/FASApp/Classes/Bulletins.m312942368#312942368#0(0"0(0#0#57"/Users/matthew/Desktop/CMPT275/FASApp/Classes/Bulletins.m8605016352#1711"    cd /Users/matthew/Desktop/CMPT275/FASApp    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.1 -iquote /Users/matthew/Desktop/CMPT275/FASApp/build/FASApp.build/Debug-iphoneos/FASApp.build/FASApp-generated-files.hmap -I/Users/matthew/Desktop/CMPT275/FASApp/build/FASApp.build/Debug-iphoneos/FASApp.build/FASApp-own-target-headers.hmap -I/Users/matthew/Desktop/CMPT275/FASApp/build/FASApp.build/Debug-iphoneos/FASApp.build/FASApp-all-target-headers.hmap -iquote /Users/matthew/Desktop/CMPT275/FASApp/build/FASApp.build/Debug-iphoneos/FASApp.build/FASApp-project-headers.hmap -F/Users/matthew/Desktop/CMPT275/FASApp/build/Debug-iphoneos -I/Users/matthew/Desktop/CMPT275/FASApp/build/Debug-iphoneos/include -I/Users/matthew/Desktop/CMPT275/FASApp/build/FASApp.build/Debug-iphoneos/FASApp.build/DerivedSources/armv6 -I/Users/matthew/Desktop/CMPT275/FASApp/build/FASApp.build/Debug-iphoneos/FASApp.build/DerivedSources -include /var/folders/Bs/BsR3qIplGWWwc9MfqHrARk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FASApp_Prefix-fowfaqrvktaijxbnjezubgjfifqn/FASApp_Prefix.pch -c /Users/matthew/Desktop/CMPT275/FASApp/Classes/Bulletins.m -o /Users/matthew/Desktop/CMPT275/FASApp/build/FASApp.build/Debug-iphoneos/FASApp.build/Objects-normal/armv6/Bulletins.o0#
-
-CCompileC build/FASApp.build/Debug-iphoneos/FASApp.build/Objects-normal/armv6/Contacts.o /Users/matthew/Desktop/CMPT275/FASApp/Classes/Contacts.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-s312942368.723952
-e312942368.819760
-r1
-xCompileC
-xbuild/FASApp.build/Debug-iphoneos/FASApp.build/Objects-normal/armv6/Contacts.o
-x/Users/matthew/Desktop/CMPT275/FASApp/Classes/Contacts.m
-xnormal
-xarmv6
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@64"Compile /Users/matthew/Desktop/CMPT275/FASApp/Classes/Contacts.m312942368#312942368#0(0"0(0#0#56"/Users/matthew/Desktop/CMPT275/FASApp/Classes/Contacts.m8604610432#1709"    cd /Users/matthew/Desktop/CMPT275/FASApp    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.1 -iquote /Users/matthew/Desktop/CMPT275/FASApp/build/FASApp.build/Debug-iphoneos/FASApp.build/FASApp-generated-files.hmap -I/Users/matthew/Desktop/CMPT275/FASApp/build/FASApp.build/Debug-iphoneos/FASApp.build/FASApp-own-target-headers.hmap -I/Users/matthew/Desktop/CMPT275/FASApp/build/FASApp.build/Debug-iphoneos/FASApp.build/FASApp-all-target-headers.hmap -iquote /Users/matthew/Desktop/CMPT275/FASApp/build/FASApp.build/Debug-iphoneos/FASApp.build/FASApp-project-headers.hmap -F/Users/matthew/Desktop/CMPT275/FASApp/build/Debug-iphoneos -I/Users/matthew/Desktop/CMPT275/FASApp/build/Debug-iphoneos/include -I/Users/matthew/Desktop/CMPT275/FASApp/build/FASApp.build/Debug-iphoneos/FASApp.build/DerivedSources/armv6 -I/Users/matthew/Desktop/CMPT275/FASApp/build/FASApp.build/Debug-iphoneos/FASApp.build/DerivedSources -include /var/folders/Bs/BsR3qIplGWWwc9MfqHrARk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FASApp_Prefix-fowfaqrvktaijxbnjezubgjfifqn/FASApp_Prefix.pch -c /Users/matthew/Desktop/CMPT275/FASApp/Classes/Contacts.m -o /Users/matthew/Desktop/CMPT275/FASApp/build/FASApp.build/Debug-iphoneos/FASApp.build/Objects-normal/armv6/Contacts.o0#
-
-CCompileC build/FASApp.build/Debug-iphoneos/FASApp.build/Objects-normal/armv6/DetailViewController.o /Users/matthew/Desktop/CMPT275/FASApp/Classes/DetailViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-s312942368.209433
-e312942368.292653
-r1
-xCompileC
-xbuild/FASApp.build/Debug-iphoneos/FASApp.build/Objects-normal/armv6/DetailViewController.o
-x/Users/matthew/Desktop/CMPT275/FASApp/Classes/DetailViewController.m
-xnormal
-xarmv6
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@76"Compile /Users/matthew/Desktop/CMPT275/FASApp/Classes/DetailViewController.m312942368#312942368#0(0"0(0#0#68"/Users/matthew/Desktop/CMPT275/FASApp/Classes/DetailViewController.m8605077568#1733"    cd /Users/matthew/Desktop/CMPT275/FASApp    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.1 -iquote /Users/matthew/Desktop/CMPT275/FASApp/build/FASApp.build/Debug-iphoneos/FASApp.build/FASApp-generated-files.hmap -I/Users/matthew/Desktop/CMPT275/FASApp/build/FASApp.build/Debug-iphoneos/FASApp.build/FASApp-own-target-headers.hmap -I/Users/matthew/Desktop/CMPT275/FASApp/build/FASApp.build/Debug-iphoneos/FASApp.build/FASApp-all-target-headers.hmap -iquote /Users/matthew/Desktop/CMPT275/FASApp/build/FASApp.build/Debug-iphoneos/FASApp.build/FASApp-project-headers.hmap -F/Users/matthew/Desktop/CMPT275/FASApp/build/Debug-iphoneos -I/Users/matthew/Desktop/CMPT275/FASApp/build/Debug-iphoneos/include -I/Users/matthew/Desktop/CMPT275/FASApp/build/FASApp.build/Debug-iphoneos/FASApp.build/DerivedSources/armv6 -I/Users/matthew/Desktop/CMPT275/FASApp/build/FASApp.build/Debug-iphoneos/FASApp.build/DerivedSources -include /var/folders/Bs/BsR3qIplGWWwc9MfqHrARk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FASApp_Prefix-fowfaqrvktaijxbnjezubgjfifqn/FASApp_Prefix.pch -c /Users/matthew/Desktop/CMPT275/FASApp/Classes/DetailViewController.m -o /Users/matthew/Desktop/CMPT275/FASApp/build/FASApp.build/Debug-iphoneos/FASApp.build/Objects-normal/armv6/DetailViewController.o0#
-
-CCompileC build/FASApp.build/Debug-iphoneos/FASApp.build/Objects-normal/armv6/Directory.o /Users/matthew/Desktop/CMPT275/FASApp/Classes/Directory.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-s312942368.793063
-e312942368.882868
-r1
-xCompileC
-xbuild/FASApp.build/Debug-iphoneos/FASApp.build/Objects-normal/armv6/Directory.o
-x/Users/matthew/Desktop/CMPT275/FASApp/Classes/Directory.m
-xnormal
-xarmv6
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@65"Compile /Users/matthew/Desktop/CMPT275/FASApp/Classes/Directory.m312942368#312942368#0(0"0(0#0#57"/Users/matthew/Desktop/CMPT275/FASApp/Classes/Directory.m8604399936#1711"    cd /Users/matthew/Desktop/CMPT275/FASApp    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.1 -iquote /Users/matthew/Desktop/CMPT275/FASApp/build/FASApp.build/Debug-iphoneos/FASApp.build/FASApp-generated-files.hmap -I/Users/matthew/Desktop/CMPT275/FASApp/build/FASApp.build/Debug-iphoneos/FASApp.build/FASApp-own-target-headers.hmap -I/Users/matthew/Desktop/CMPT275/FASApp/build/FASApp.build/Debug-iphoneos/FASApp.build/FASApp-all-target-headers.hmap -iquote /Users/matthew/Desktop/CMPT275/FASApp/build/FASApp.build/Debug-iphoneos/FASApp.build/FASApp-project-headers.hmap -F/Users/matthew/Desktop/CMPT275/FASApp/build/Debug-iphoneos -I/Users/matthew/Desktop/CMPT275/FASApp/build/Debug-iphoneos/include -I/Users/matthew/Desktop/CMPT275/FASApp/build/FASApp.build/Debug-iphoneos/FASApp.build/DerivedSources/armv6 -I/Users/matthew/Desktop/CMPT275/FASApp/build/FASApp.build/Debug-iphoneos/FASApp.build/DerivedSources -include /var/folders/Bs/BsR3qIplGWWwc9MfqHrARk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FASApp_Prefix-fowfaqrvktaijxbnjezubgjfifqn/FASApp_Prefix.pch -c /Users/matthew/Desktop/CMPT275/FASApp/Classes/Directory.m -o /Users/matthew/Desktop/CMPT275/FASApp/build/FASApp.build/Debug-iphoneos/FASApp.build/Objects-normal/armv6/Directory.o0#
-
-CCompileC build/FASApp.build/Debug-iphoneos/FASApp.build/Objects-normal/armv6/EventsList.o /Users/matthew/Desktop/CMPT275/FASApp/Classes/EventsList.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-s312942368.292757
-e312942368.386229
-r1
-xCompileC
-xbuild/FASApp.build/Debug-iphoneos/FASApp.build/Objects-normal/armv6/EventsList.o
-x/Users/matthew/Desktop/CMPT275/FASApp/Classes/EventsList.m
-xnormal
-xarmv6
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@66"Compile /Users/matthew/Desktop/CMPT275/FASApp/Classes/EventsList.m312942368#312942368#0(0"0(0#0#58"/Users/matthew/Desktop/CMPT275/FASApp/Classes/EventsList.m8604422080#1713"    cd /Users/matthew/Desktop/CMPT275/FASApp    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.1 -iquote /Users/matthew/Desktop/CMPT275/FASApp/build/FASApp.build/Debug-iphoneos/FASApp.build/FASApp-generated-files.hmap -I/Users/matthew/Desktop/CMPT275/FASApp/build/FASApp.build/Debug-iphoneos/FASApp.build/FASApp-own-target-headers.hmap -I/Users/matthew/Desktop/CMPT275/FASApp/build/FASApp.build/Debug-iphoneos/FASApp.build/FASApp-all-target-headers.hmap -iquote /Users/matthew/Desktop/CMPT275/FASApp/build/FASApp.build/Debug-iphoneos/FASApp.build/FASApp-project-headers.hmap -F/Users/matthew/Desktop/CMPT275/FASApp/build/Debug-iphoneos -I/Users/matthew/Desktop/CMPT275/FASApp/build/Debug-iphoneos/include -I/Users/matthew/Desktop/CMPT275/FASApp/build/FASApp.build/Debug-iphoneos/FASApp.build/DerivedSources/armv6 -I/Users/matthew/Desktop/CMPT275/FASApp/build/FASApp.build/Debug-iphoneos/FASApp.build/DerivedSources -include /var/folders/Bs/BsR3qIplGWWwc9MfqHrARk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FASApp_Prefix-fowfaqrvktaijxbnjezubgjfifqn/FASApp_Prefix.pch -c /Users/matthew/Desktop/CMPT275/FASApp/Classes/EventsList.m -o /Users/matthew/Desktop/CMPT275/FASApp/build/FASApp.build/Debug-iphoneos/FASApp.build/Objects-normal/armv6/EventsList.o0#
-
-CCompileC build/FASApp.build/Debug-iphoneos/FASApp.build/Objects-normal/armv6/FASAppAppDelegate.o /Users/matthew/Desktop/CMPT275/FASApp/Classes/FASAppAppDelegate.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-s312942368.128324
-e312942368.294873
-r1
-xCompileC
-xbuild/FASApp.build/Debug-iphoneos/FASApp.build/Objects-normal/armv6/FASAppAppDelegate.o
-x/Users/matthew/Desktop/CMPT275/FASApp/Classes/FASAppAppDelegate.m
-xnormal
-xarmv6
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@73"Compile /Users/matthew/Desktop/CMPT275/FASApp/Classes/FASAppAppDelegate.m312942368#312942368#0(0"0(0#0#65"/Users/matthew/Desktop/CMPT275/FASApp/Classes/FASAppAppDelegate.m8605474880#1727"    cd /Users/matthew/Desktop/CMPT275/FASApp    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.1 -iquote /Users/matthew/Desktop/CMPT275/FASApp/build/FASApp.build/Debug-iphoneos/FASApp.build/FASApp-generated-files.hmap -I/Users/matthew/Desktop/CMPT275/FASApp/build/FASApp.build/Debug-iphoneos/FASApp.build/FASApp-own-target-headers.hmap -I/Users/matthew/Desktop/CMPT275/FASApp/build/FASApp.build/Debug-iphoneos/FASApp.build/FASApp-all-target-headers.hmap -iquote /Users/matthew/Desktop/CMPT275/FASApp/build/FASApp.build/Debug-iphoneos/FASApp.build/FASApp-project-headers.hmap -F/Users/matthew/Desktop/CMPT275/FASApp/build/Debug-iphoneos -I/Users/matthew/Desktop/CMPT275/FASApp/build/Debug-iphoneos/include -I/Users/matthew/Desktop/CMPT275/FASApp/build/FASApp.build/Debug-iphoneos/FASApp.build/DerivedSources/armv6 -I/Users/matthew/Desktop/CMPT275/FASApp/build/FASApp.build/Debug-iphoneos/FASApp.build/DerivedSources -include /var/folders/Bs/BsR3qIplGWWwc9MfqHrARk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FASApp_Prefix-fowfaqrvktaijxbnjezubgjfifqn/FASApp_Prefix.pch -c /Users/matthew/Desktop/CMPT275/FASApp/Classes/FASAppAppDelegate.m -o /Users/matthew/Desktop/CMPT275/FASApp/build/FASApp.build/Debug-iphoneos/FASApp.build/Objects-normal/armv6/FASAppAppDelegate.o0#
-
-CCompileC build/FASApp.build/Debug-iphoneos/FASApp.build/Objects-normal/armv6/FASTabBarController.o /Users/matthew/Desktop/CMPT275/FASApp/Classes/FASTabBarController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-s312942368.502422
-e312942368.586161
-r1
-xCompileC
-xbuild/FASApp.build/Debug-iphoneos/FASApp.build/Objects-normal/armv6/FASTabBarController.o
-x/Users/matthew/Desktop/CMPT275/FASApp/Classes/FASTabBarController.m
-xnormal
-xarmv6
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@75"Compile /Users/matthew/Desktop/CMPT275/FASApp/Classes/FASTabBarController.m312942368#312942368#0(0"0(0#0#67"/Users/matthew/Desktop/CMPT275/FASApp/Classes/FASTabBarController.m8603865856#1731"    cd /Users/matthew/Desktop/CMPT275/FASApp    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.1 -iquote /Users/matthew/Desktop/CMPT275/FASApp/build/FASApp.build/Debug-iphoneos/FASApp.build/FASApp-generated-files.hmap -I/Users/matthew/Desktop/CMPT275/FASApp/build/FASApp.build/Debug-iphoneos/FASApp.build/FASApp-own-target-headers.hmap -I/Users/matthew/Desktop/CMPT275/FASApp/build/FASApp.build/Debug-iphoneos/FASApp.build/FASApp-all-target-headers.hmap -iquote /Users/matthew/Desktop/CMPT275/FASApp/build/FASApp.build/Debug-iphoneos/FASApp.build/FASApp-project-headers.hmap -F/Users/matthew/Desktop/CMPT275/FASApp/build/Debug-iphoneos -I/Users/matthew/Desktop/CMPT275/FASApp/build/Debug-iphoneos/include -I/Users/matthew/Desktop/CMPT275/FASApp/build/FASApp.build/Debug-iphoneos/FASApp.build/DerivedSources/armv6 -I/Users/matthew/Desktop/CMPT275/FASApp/build/FASApp.build/Debug-iphoneos/FASApp.build/DerivedSources -include /var/folders/Bs/BsR3qIplGWWwc9MfqHrARk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FASApp_Prefix-fowfaqrvktaijxbnjezubgjfifqn/FASApp_Prefix.pch -c /Users/matthew/Desktop/CMPT275/FASApp/Classes/FASTabBarController.m -o /Users/matthew/Desktop/CMPT275/FASApp/build/FASApp.build/Debug-iphoneos/FASApp.build/Objects-normal/armv6/FASTabBarController.o0#
-
-CCompileC build/FASApp.build/Debug-iphoneos/FASApp.build/Objects-normal/armv6/FeedOption.o /Users/matthew/Desktop/CMPT275/FASApp/Classes/FeedOption.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-s312942368.294968
-e312942368.380039
-r1
-xCompileC
-xbuild/FASApp.build/Debug-iphoneos/FASApp.build/Objects-normal/armv6/FeedOption.o
-x/Users/matthew/Desktop/CMPT275/FASApp/Classes/FeedOption.m
-xnormal
-xarmv6
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@66"Compile /Users/matthew/Desktop/CMPT275/FASApp/Classes/FeedOption.m312942368#312942368#0(0"0(0#0#58"/Users/matthew/Desktop/CMPT275/FASApp/Classes/FeedOption.m8604327808#1713"    cd /Users/matthew/Desktop/CMPT275/FASApp    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.1 -iquote /Users/matthew/Desktop/CMPT275/FASApp/build/FASApp.build/Debug-iphoneos/FASApp.build/FASApp-generated-files.hmap -I/Users/matthew/Desktop/CMPT275/FASApp/build/FASApp.build/Debug-iphoneos/FASApp.build/FASApp-own-target-headers.hmap -I/Users/matthew/Desktop/CMPT275/FASApp/build/FASApp.build/Debug-iphoneos/FASApp.build/FASApp-all-target-headers.hmap -iquote /Users/matthew/Desktop/CMPT275/FASApp/build/FASApp.build/Debug-iphoneos/FASApp.build/FASApp-project-headers.hmap -F/Users/matthew/Desktop/CMPT275/FASApp/build/Debug-iphoneos -I/Users/matthew/Desktop/CMPT275/FASApp/build/Debug-iphoneos/include -I/Users/matthew/Desktop/CMPT275/FASApp/build/FASApp.build/Debug-iphoneos/FASApp.build/DerivedSources/armv6 -I/Users/matthew/Desktop/CMPT275/FASApp/build/FASApp.build/Debug-iphoneos/FASApp.build/DerivedSources -include /var/folders/Bs/BsR3qIplGWWwc9MfqHrARk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FASApp_Prefix-fowfaqrvktaijxbnjezubgjfifqn/FASApp_Prefix.pch -c /Users/matthew/Desktop/CMPT275/FASApp/Classes/FeedOption.m -o /Users/matthew/Desktop/CMPT275/FASApp/build/FASApp.build/Debug-iphoneos/FASApp.build/Objects-normal/armv6/FeedOption.o0#
-
-CCompileC build/FASApp.build/Debug-iphoneos/FASApp.build/Objects-normal/armv6/Message.o /Users/matthew/Desktop/CMPT275/FASApp/Classes/Message.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-s312942368.819867
-e312942368.902806
-r1
-xCompileC
-xbuild/FASApp.build/Debug-iphoneos/FASApp.build/Objects-normal/armv6/Message.o
-x/Users/matthew/Desktop/CMPT275/FASApp/Classes/Message.m
-xnormal
-xarmv6
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@63"Compile /Users/matthew/Desktop/CMPT275/FASApp/Classes/Message.m312942368#312942368#0(0"0(0#0#55"/Users/matthew/Desktop/CMPT275/FASApp/Classes/Message.m8602107136#1707"    cd /Users/matthew/Desktop/CMPT275/FASApp    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.1 -iquote /Users/matthew/Desktop/CMPT275/FASApp/build/FASApp.build/Debug-iphoneos/FASApp.build/FASApp-generated-files.hmap -I/Users/matthew/Desktop/CMPT275/FASApp/build/FASApp.build/Debug-iphoneos/FASApp.build/FASApp-own-target-headers.hmap -I/Users/matthew/Desktop/CMPT275/FASApp/build/FASApp.build/Debug-iphoneos/FASApp.build/FASApp-all-target-headers.hmap -iquote /Users/matthew/Desktop/CMPT275/FASApp/build/FASApp.build/Debug-iphoneos/FASApp.build/FASApp-project-headers.hmap -F/Users/matthew/Desktop/CMPT275/FASApp/build/Debug-iphoneos -I/Users/matthew/Desktop/CMPT275/FASApp/build/Debug-iphoneos/include -I/Users/matthew/Desktop/CMPT275/FASApp/build/FASApp.build/Debug-iphoneos/FASApp.build/DerivedSources/armv6 -I/Users/matthew/Desktop/CMPT275/FASApp/build/FASApp.build/Debug-iphoneos/FASApp.build/DerivedSources -include /var/folders/Bs/BsR3qIplGWWwc9MfqHrARk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FASApp_Prefix-fowfaqrvktaijxbnjezubgjfifqn/FASApp_Prefix.pch -c /Users/matthew/Desktop/CMPT275/FASApp/Classes/Message.m -o /Users/matthew/Desktop/CMPT275/FASApp/build/FASApp.build/Debug-iphoneos/FASApp.build/Objects-normal/armv6/Message.o0#
-
-CCompileC build/FASApp.build/Debug-iphoneos/FASApp.build/Objects-normal/armv6/NewsList.o /Users/matthew/Desktop/CMPT275/FASApp/Classes/NewsList.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-s312942368.380136
-e312942368.487921
-r1
-xCompileC
-xbuild/FASApp.build/Debug-iphoneos/FASApp.build/Objects-normal/armv6/NewsList.o
-x/Users/matthew/Desktop/CMPT275/FASApp/Classes/NewsList.m
-xnormal
-xarmv6
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@64"Compile /Users/matthew/Desktop/CMPT275/FASApp/Classes/NewsList.m312942368#312942368#0(0"0(0#0#56"/Users/matthew/Desktop/CMPT275/FASApp/Classes/NewsList.m8604117088#1709"    cd /Users/matthew/Desktop/CMPT275/FASApp    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.1 -iquote /Users/matthew/Desktop/CMPT275/FASApp/build/FASApp.build/Debug-iphoneos/FASApp.build/FASApp-generated-files.hmap -I/Users/matthew/Desktop/CMPT275/FASApp/build/FASApp.build/Debug-iphoneos/FASApp.build/FASApp-own-target-headers.hmap -I/Users/matthew/Desktop/CMPT275/FASApp/build/FASApp.build/Debug-iphoneos/FASApp.build/FASApp-all-target-headers.hmap -iquote /Users/matthew/Desktop/CMPT275/FASApp/build/FASApp.build/Debug-iphoneos/FASApp.build/FASApp-project-headers.hmap -F/Users/matthew/Desktop/CMPT275/FASApp/build/Debug-iphoneos -I/Users/matthew/Desktop/CMPT275/FASApp/build/Debug-iphoneos/include -I/Users/matthew/Desktop/CMPT275/FASApp/build/FASApp.build/Debug-iphoneos/FASApp.build/DerivedSources/armv6 -I/Users/matthew/Desktop/CMPT275/FASApp/build/FASApp.build/Debug-iphoneos/FASApp.build/DerivedSources -include /var/folders/Bs/BsR3qIplGWWwc9MfqHrARk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FASApp_Prefix-fowfaqrvktaijxbnjezubgjfifqn/FASApp_Prefix.pch -c /Users/matthew/Desktop/CMPT275/FASApp/Classes/NewsList.m -o /Users/matthew/Desktop/CMPT275/FASApp/build/FASApp.build/Debug-iphoneos/FASApp.build/Objects-normal/armv6/NewsList.o0#
-
-CCompileC build/FASApp.build/Debug-iphoneos/FASApp.build/Objects-normal/armv6/RSSParser.o /Users/matthew/Desktop/CMPT275/FASApp/Classes/RSSParser.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-s312942368.386334
-e312942368.502315
-r1
-xCompileC
-xbuild/FASApp.build/Debug-iphoneos/FASApp.build/Objects-normal/armv6/RSSParser.o
-x/Users/matthew/Desktop/CMPT275/FASApp/Classes/RSSParser.m
-xnormal
-xarmv6
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-o/Users/matthew/Desktop/CMPT275/FASApp/Classes/RSSParser.m: In function '-[RSSParser parseURL:]':
-o/Users/matthew/Desktop/CMPT275/FASApp/Classes/RSSParser.m:24: warning: 'RSSParser' may not respond to '-parseXMLFileAtURL:'
-o/Users/matthew/Desktop/CMPT275/FASApp/Classes/RSSParser.m:24: warning: (Messages without a matching method signature
-o/Users/matthew/Desktop/CMPT275/FASApp/Classes/RSSParser.m:24: warning: will be assumed to return 'id' and accept
-o/Users/matthew/Desktop/CMPT275/FASApp/Classes/RSSParser.m:24: warning: '...' as arguments.)
-o/Users/matthew/Desktop/CMPT275/FASApp/Classes/RSSParser.m: In function '-[RSSParser parseXMLFileAtURL:]':
-o/Users/matthew/Desktop/CMPT275/FASApp/Classes/RSSParser.m:40: warning: class 'RSSParser' does not implement the 'NSXMLParserDelegate' protocol
-lSLF07#2@65"Compile /Users/matthew/Desktop/CMPT275/FASApp/Classes/RSSParser.m312942368#312942368#0(792"/Users/matthew/Desktop/CMPT275/FASApp/Classes/RSSParser.m: In function '-[RSSParser parseURL:]':/Users/matthew/Desktop/CMPT275/FASApp/Classes/RSSParser.m:24: warning: 'RSSParser' may not respond to '-parseXMLFileAtURL:'/Users/matthew/Desktop/CMPT275/FASApp/Classes/RSSParser.m:24: warning: (Messages without a matching method signature/Users/matthew/Desktop/CMPT275/FASApp/Classes/RSSParser.m:24: warning: will be assumed to return 'id' and accept/Users/matthew/Desktop/CMPT275/FASApp/Classes/RSSParser.m:24: warning: '...' as arguments.)/Users/matthew/Desktop/CMPT275/FASApp/Classes/RSSParser.m: In function '-[RSSParser parseXMLFileAtURL:]':/Users/matthew/Desktop/CMPT275/FASApp/Classes/RSSParser.m:40: warning: class 'RSSParser' does not implement the 'NSXMLParserDelegate' protocol3(22@52"'RSSParser' may not respond to '-parseXMLFileAtURL:'312942368#97#124#0(6@57"/Users/matthew/Desktop/CMPT275/FASApp/Classes/RSSParser.m312085751#24#0#24#0#26"'*' may not respond to '*'0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)312942368#221#117#0(6@57"/Users/matthew/Desktop/CMPT275/FASApp/Classes/RSSParser.m312085751#24#0#24#0#0"0(22@71"Class 'RSSParser' does not implement the 'NSXMLParserDelegate' protocol312942368#649#143#0(6@57"/Users/matthew/Desktop/CMPT275/FASApp/Classes/RSSParser.m312085751#40#0#40#0#45"class '*' does not implement the '*' protocol0(0#0#57"/Users/matthew/Desktop/CMPT275/FASApp/Classes/RSSParser.m8602059552#1711"    cd /Users/matthew/Desktop/CMPT275/FASApp    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.1 -iquote /Users/matthew/Desktop/CMPT275/FASApp/build/FASApp.build/Debug-iphoneos/FASApp.build/FASApp-generated-files.hmap -I/Users/matthew/Desktop/CMPT275/FASApp/build/FASApp.build/Debug-iphoneos/FASApp.build/FASApp-own-target-headers.hmap -I/Users/matthew/Desktop/CMPT275/FASApp/build/FASApp.build/Debug-iphoneos/FASApp.build/FASApp-all-target-headers.hmap -iquote /Users/matthew/Desktop/CMPT275/FASApp/build/FASApp.build/Debug-iphoneos/FASApp.build/FASApp-project-headers.hmap -F/Users/matthew/Desktop/CMPT275/FASApp/build/Debug-iphoneos -I/Users/matthew/Desktop/CMPT275/FASApp/build/Debug-iphoneos/include -I/Users/matthew/Desktop/CMPT275/FASApp/build/FASApp.build/Debug-iphoneos/FASApp.build/DerivedSources/armv6 -I/Users/matthew/Desktop/CMPT275/FASApp/build/FASApp.build/Debug-iphoneos/FASApp.build/DerivedSources -include /var/folders/Bs/BsR3qIplGWWwc9MfqHrARk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FASApp_Prefix-fowfaqrvktaijxbnjezubgjfifqn/FASApp_Prefix.pch -c /Users/matthew/Desktop/CMPT275/FASApp/Classes/RSSParser.m -o /Users/matthew/Desktop/CMPT275/FASApp/build/FASApp.build/Debug-iphoneos/FASApp.build/Objects-normal/armv6/RSSParser.o0#
-
-CCompileC build/FASApp.build/Debug-iphoneos/FASApp.build/Objects-normal/armv6/SFUConnect.o /Users/matthew/Desktop/CMPT275/FASApp/Classes/SFUConnect.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-s312942368.586265
-e312942368.723853
-r1
-xCompileC
-xbuild/FASApp.build/Debug-iphoneos/FASApp.build/Objects-normal/armv6/SFUConnect.o
-x/Users/matthew/Desktop/CMPT275/FASApp/Classes/SFUConnect.m
-xnormal
-xarmv6
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@66"Compile /Users/matthew/Desktop/CMPT275/FASApp/Classes/SFUConnect.m312942368#312942368#0(0"0(0#0#58"/Users/matthew/Desktop/CMPT275/FASApp/Classes/SFUConnect.m8607146688#1713"    cd /Users/matthew/Desktop/CMPT275/FASApp    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.1 -iquote /Users/matthew/Desktop/CMPT275/FASApp/build/FASApp.build/Debug-iphoneos/FASApp.build/FASApp-generated-files.hmap -I/Users/matthew/Desktop/CMPT275/FASApp/build/FASApp.build/Debug-iphoneos/FASApp.build/FASApp-own-target-headers.hmap -I/Users/matthew/Desktop/CMPT275/FASApp/build/FASApp.build/Debug-iphoneos/FASApp.build/FASApp-all-target-headers.hmap -iquote /Users/matthew/Desktop/CMPT275/FASApp/build/FASApp.build/Debug-iphoneos/FASApp.build/FASApp-project-headers.hmap -F/Users/matthew/Desktop/CMPT275/FASApp/build/Debug-iphoneos -I/Users/matthew/Desktop/CMPT275/FASApp/build/Debug-iphoneos/include -I/Users/matthew/Desktop/CMPT275/FASApp/build/FASApp.build/Debug-iphoneos/FASApp.build/DerivedSources/armv6 -I/Users/matthew/Desktop/CMPT275/FASApp/build/FASApp.build/Debug-iphoneos/FASApp.build/DerivedSources -include /var/folders/Bs/BsR3qIplGWWwc9MfqHrARk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FASApp_Prefix-fowfaqrvktaijxbnjezubgjfifqn/FASApp_Prefix.pch -c /Users/matthew/Desktop/CMPT275/FASApp/Classes/SFUConnect.m -o /Users/matthew/Desktop/CMPT275/FASApp/build/FASApp.build/Debug-iphoneos/FASApp.build/Objects-normal/armv6/SFUConnect.o0#
-
-CCompileC build/FASApp.build/Debug-iphoneos/FASApp.build/Objects-normal/armv6/TransparentToolbar.o /Users/matthew/Desktop/CMPT275/FASApp/Classes/TransparentToolbar.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-s312942368.985748
-e312942369.061298
-r1
-xCompileC
-xbuild/FASApp.build/Debug-iphoneos/FASApp.build/Objects-normal/armv6/TransparentToolbar.o
-x/Users/matthew/Desktop/CMPT275/FASApp/Classes/TransparentToolbar.m
-xnormal
-xarmv6
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@74"Compile /Users/matthew/Desktop/CMPT275/FASApp/Classes/TransparentToolbar.m312942368#312942369#0(0"0(0#0#66"/Users/matthew/Desktop/CMPT275/FASApp/Classes/TransparentToolbar.m8607373664#1729"    cd /Users/matthew/Desktop/CMPT275/FASApp    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.1 -iquote /Users/matthew/Desktop/CMPT275/FASApp/build/FASApp.build/Debug-iphoneos/FASApp.build/FASApp-generated-files.hmap -I/Users/matthew/Desktop/CMPT275/FASApp/build/FASApp.build/Debug-iphoneos/FASApp.build/FASApp-own-target-headers.hmap -I/Users/matthew/Desktop/CMPT275/FASApp/build/FASApp.build/Debug-iphoneos/FASApp.build/FASApp-all-target-headers.hmap -iquote /Users/matthew/Desktop/CMPT275/FASApp/build/FASApp.build/Debug-iphoneos/FASApp.build/FASApp-project-headers.hmap -F/Users/matthew/Desktop/CMPT275/FASApp/build/Debug-iphoneos -I/Users/matthew/Desktop/CMPT275/FASApp/build/Debug-iphoneos/include -I/Users/matthew/Desktop/CMPT275/FASApp/build/FASApp.build/Debug-iphoneos/FASApp.build/DerivedSources/armv6 -I/Users/matthew/Desktop/CMPT275/FASApp/build/FASApp.build/Debug-iphoneos/FASApp.build/DerivedSources -include /var/folders/Bs/BsR3qIplGWWwc9MfqHrARk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FASApp_Prefix-fowfaqrvktaijxbnjezubgjfifqn/FASApp_Prefix.pch -c /Users/matthew/Desktop/CMPT275/FASApp/Classes/TransparentToolbar.m -o /Users/matthew/Desktop/CMPT275/FASApp/build/FASApp.build/Debug-iphoneos/FASApp.build/Objects-normal/armv6/TransparentToolbar.o0#
-
-CCompileC build/FASApp.build/Debug-iphoneos/FASApp.build/Objects-normal/armv6/WebConnection.o /Users/matthew/Desktop/CMPT275/FASApp/Classes/WebConnection.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-s312942368.577135
-e312942368.667902
-r1
-xCompileC
-xbuild/FASApp.build/Debug-iphoneos/FASApp.build/Objects-normal/armv6/WebConnection.o
-x/Users/matthew/Desktop/CMPT275/FASApp/Classes/WebConnection.m
-xnormal
-xarmv6
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@69"Compile /Users/matthew/Desktop/CMPT275/FASApp/Classes/WebConnection.m312942368#312942368#0(0"0(0#0#61"/Users/matthew/Desktop/CMPT275/FASApp/Classes/WebConnection.m8607366432#1719"    cd /Users/matthew/Desktop/CMPT275/FASApp    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.1 -iquote /Users/matthew/Desktop/CMPT275/FASApp/build/FASApp.build/Debug-iphoneos/FASApp.build/FASApp-generated-files.hmap -I/Users/matthew/Desktop/CMPT275/FASApp/build/FASApp.build/Debug-iphoneos/FASApp.build/FASApp-own-target-headers.hmap -I/Users/matthew/Desktop/CMPT275/FASApp/build/FASApp.build/Debug-iphoneos/FASApp.build/FASApp-all-target-headers.hmap -iquote /Users/matthew/Desktop/CMPT275/FASApp/build/FASApp.build/Debug-iphoneos/FASApp.build/FASApp-project-headers.hmap -F/Users/matthew/Desktop/CMPT275/FASApp/build/Debug-iphoneos -I/Users/matthew/Desktop/CMPT275/FASApp/build/Debug-iphoneos/include -I/Users/matthew/Desktop/CMPT275/FASApp/build/FASApp.build/Debug-iphoneos/FASApp.build/DerivedSources/armv6 -I/Users/matthew/Desktop/CMPT275/FASApp/build/FASApp.build/Debug-iphoneos/FASApp.build/DerivedSources -include /var/folders/Bs/BsR3qIplGWWwc9MfqHrARk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FASApp_Prefix-fowfaqrvktaijxbnjezubgjfifqn/FASApp_Prefix.pch -c /Users/matthew/Desktop/CMPT275/FASApp/Classes/WebConnection.m -o /Users/matthew/Desktop/CMPT275/FASApp/build/FASApp.build/Debug-iphoneos/FASApp.build/Objects-normal/armv6/WebConnection.o0#
-
-CCompileC build/FASApp.build/Debug-iphoneos/FASApp.build/Objects-normal/armv6/WebViewController.o /Users/matthew/Desktop/CMPT275/FASApp/Classes/WebViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-s312942368.488028
-e312942368.577033
-r1
-xCompileC
-xbuild/FASApp.build/Debug-iphoneos/FASApp.build/Objects-normal/armv6/WebViewController.o
-x/Users/matthew/Desktop/CMPT275/FASApp/Classes/WebViewController.m
-xnormal
-xarmv6
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@73"Compile /Users/matthew/Desktop/CMPT275/FASApp/Classes/WebViewController.m312942368#312942368#0(0"0(0#0#65"/Users/matthew/Desktop/CMPT275/FASApp/Classes/WebViewController.m8607104192#1727"    cd /Users/matthew/Desktop/CMPT275/FASApp    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.1 -iquote /Users/matthew/Desktop/CMPT275/FASApp/build/FASApp.build/Debug-iphoneos/FASApp.build/FASApp-generated-files.hmap -I/Users/matthew/Desktop/CMPT275/FASApp/build/FASApp.build/Debug-iphoneos/FASApp.build/FASApp-own-target-headers.hmap -I/Users/matthew/Desktop/CMPT275/FASApp/build/FASApp.build/Debug-iphoneos/FASApp.build/FASApp-all-target-headers.hmap -iquote /Users/matthew/Desktop/CMPT275/FASApp/build/FASApp.build/Debug-iphoneos/FASApp.build/FASApp-project-headers.hmap -F/Users/matthew/Desktop/CMPT275/FASApp/build/Debug-iphoneos -I/Users/matthew/Desktop/CMPT275/FASApp/build/Debug-iphoneos/include -I/Users/matthew/Desktop/CMPT275/FASApp/build/FASApp.build/Debug-iphoneos/FASApp.build/DerivedSources/armv6 -I/Users/matthew/Desktop/CMPT275/FASApp/build/FASApp.build/Debug-iphoneos/FASApp.build/DerivedSources -include /var/folders/Bs/BsR3qIplGWWwc9MfqHrARk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FASApp_Prefix-fowfaqrvktaijxbnjezubgjfifqn/FASApp_Prefix.pch -c /Users/matthew/Desktop/CMPT275/FASApp/Classes/WebViewController.m -o /Users/matthew/Desktop/CMPT275/FASApp/build/FASApp.build/Debug-iphoneos/FASApp.build/Objects-normal/armv6/WebViewController.o0#
-
-CCompileC build/FASApp.build/Debug-iphoneos/FASApp.build/Objects-normal/armv6/main.o /Users/matthew/Desktop/CMPT275/FASApp/main.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-s312942368.127302
-e312942368.209327
-r1
-xCompileC
-xbuild/FASApp.build/Debug-iphoneos/FASApp.build/Objects-normal/armv6/main.o
-x/Users/matthew/Desktop/CMPT275/FASApp/main.m
-xnormal
-xarmv6
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@52"Compile /Users/matthew/Desktop/CMPT275/FASApp/main.m312942368#312942368#0(0"0(0#0#44"/Users/matthew/Desktop/CMPT275/FASApp/main.m8606830176#1693"    cd /Users/matthew/Desktop/CMPT275/FASApp    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.1 -iquote /Users/matthew/Desktop/CMPT275/FASApp/build/FASApp.build/Debug-iphoneos/FASApp.build/FASApp-generated-files.hmap -I/Users/matthew/Desktop/CMPT275/FASApp/build/FASApp.build/Debug-iphoneos/FASApp.build/FASApp-own-target-headers.hmap -I/Users/matthew/Desktop/CMPT275/FASApp/build/FASApp.build/Debug-iphoneos/FASApp.build/FASApp-all-target-headers.hmap -iquote /Users/matthew/Desktop/CMPT275/FASApp/build/FASApp.build/Debug-iphoneos/FASApp.build/FASApp-project-headers.hmap -F/Users/matthew/Desktop/CMPT275/FASApp/build/Debug-iphoneos -I/Users/matthew/Desktop/CMPT275/FASApp/build/Debug-iphoneos/include -I/Users/matthew/Desktop/CMPT275/FASApp/build/FASApp.build/Debug-iphoneos/FASApp.build/DerivedSources/armv6 -I/Users/matthew/Desktop/CMPT275/FASApp/build/FASApp.build/Debug-iphoneos/FASApp.build/DerivedSources -include /var/folders/Bs/BsR3qIplGWWwc9MfqHrARk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FASApp_Prefix-fowfaqrvktaijxbnjezubgjfifqn/FASApp_Prefix.pch -c /Users/matthew/Desktop/CMPT275/FASApp/main.m -o /Users/matthew/Desktop/CMPT275/FASApp/build/FASApp.build/Debug-iphoneos/FASApp.build/Objects-normal/armv6/main.o0#
-
-CCompileC build/FASApp.build/Debug-iphoneos/FASApp.build/Objects-normal/armv7/AboutFAS.o /Users/matthew/Desktop/CMPT275/FASApp/Classes/AboutFAS.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-s312942369.786803
-e312942369.899835
-r1
-xCompileC
-xbuild/FASApp.build/Debug-iphoneos/FASApp.build/Objects-normal/armv7/AboutFAS.o
-x/Users/matthew/Desktop/CMPT275/FASApp/Classes/AboutFAS.m
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@64"Compile /Users/matthew/Desktop/CMPT275/FASApp/Classes/AboutFAS.m312942369#312942369#0(0"0(0#0#56"/Users/matthew/Desktop/CMPT275/FASApp/Classes/AboutFAS.m8604346528#1709"    cd /Users/matthew/Desktop/CMPT275/FASApp    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.1 -iquote /Users/matthew/Desktop/CMPT275/FASApp/build/FASApp.build/Debug-iphoneos/FASApp.build/FASApp-generated-files.hmap -I/Users/matthew/Desktop/CMPT275/FASApp/build/FASApp.build/Debug-iphoneos/FASApp.build/FASApp-own-target-headers.hmap -I/Users/matthew/Desktop/CMPT275/FASApp/build/FASApp.build/Debug-iphoneos/FASApp.build/FASApp-all-target-headers.hmap -iquote /Users/matthew/Desktop/CMPT275/FASApp/build/FASApp.build/Debug-iphoneos/FASApp.build/FASApp-project-headers.hmap -F/Users/matthew/Desktop/CMPT275/FASApp/build/Debug-iphoneos -I/Users/matthew/Desktop/CMPT275/FASApp/build/Debug-iphoneos/include -I/Users/matthew/Desktop/CMPT275/FASApp/build/FASApp.build/Debug-iphoneos/FASApp.build/DerivedSources/armv7 -I/Users/matthew/Desktop/CMPT275/FASApp/build/FASApp.build/Debug-iphoneos/FASApp.build/DerivedSources -include /var/folders/Bs/BsR3qIplGWWwc9MfqHrARk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FASApp_Prefix-bjlesocrlrvcpwftthbnfrhngptq/FASApp_Prefix.pch -c /Users/matthew/Desktop/CMPT275/FASApp/Classes/AboutFAS.m -o /Users/matthew/Desktop/CMPT275/FASApp/build/FASApp.build/Debug-iphoneos/FASApp.build/Objects-normal/armv7/AboutFAS.o0#
-
-CCompileC build/FASApp.build/Debug-iphoneos/FASApp.build/Objects-normal/armv7/AboutUs.o /Users/matthew/Desktop/CMPT275/FASApp/Classes/AboutUs.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-s312942369.871335
-e312942369.959642
-r1
-xCompileC
-xbuild/FASApp.build/Debug-iphoneos/FASApp.build/Objects-normal/armv7/AboutUs.o
-x/Users/matthew/Desktop/CMPT275/FASApp/Classes/AboutUs.m
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@63"Compile /Users/matthew/Desktop/CMPT275/FASApp/Classes/AboutUs.m312942369#312942369#0(0"0(0#0#55"/Users/matthew/Desktop/CMPT275/FASApp/Classes/AboutUs.m8607273600#1707"    cd /Users/matthew/Desktop/CMPT275/FASApp    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.1 -iquote /Users/matthew/Desktop/CMPT275/FASApp/build/FASApp.build/Debug-iphoneos/FASApp.build/FASApp-generated-files.hmap -I/Users/matthew/Desktop/CMPT275/FASApp/build/FASApp.build/Debug-iphoneos/FASApp.build/FASApp-own-target-headers.hmap -I/Users/matthew/Desktop/CMPT275/FASApp/build/FASApp.build/Debug-iphoneos/FASApp.build/FASApp-all-target-headers.hmap -iquote /Users/matthew/Desktop/CMPT275/FASApp/build/FASApp.build/Debug-iphoneos/FASApp.build/FASApp-project-headers.hmap -F/Users/matthew/Desktop/CMPT275/FASApp/build/Debug-iphoneos -I/Users/matthew/Desktop/CMPT275/FASApp/build/Debug-iphoneos/include -I/Users/matthew/Desktop/CMPT275/FASApp/build/FASApp.build/Debug-iphoneos/FASApp.build/DerivedSources/armv7 -I/Users/matthew/Desktop/CMPT275/FASApp/build/FASApp.build/Debug-iphoneos/FASApp.build/DerivedSources -include /var/folders/Bs/BsR3qIplGWWwc9MfqHrARk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FASApp_Prefix-bjlesocrlrvcpwftthbnfrhngptq/FASApp_Prefix.pch -c /Users/matthew/Desktop/CMPT275/FASApp/Classes/AboutUs.m -o /Users/matthew/Desktop/CMPT275/FASApp/build/FASApp.build/Debug-iphoneos/FASApp.build/Objects-normal/armv7/AboutUs.o0#
-
-CCompileC build/FASApp.build/Debug-iphoneos/FASApp.build/Objects-normal/armv7/Bulletins.o /Users/matthew/Desktop/CMPT275/FASApp/Classes/Bulletins.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-s312942369.582737
-e312942369.698420
-r1
-xCompileC
-xbuild/FASApp.build/Debug-iphoneos/FASApp.build/Objects-normal/armv7/Bulletins.o
-x/Users/matthew/Desktop/CMPT275/FASApp/Classes/Bulletins.m
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@65"Compile /Users/matthew/Desktop/CMPT275/FASApp/Classes/Bulletins.m312942369#312942369#0(0"0(0#0#57"/Users/matthew/Desktop/CMPT275/FASApp/Classes/Bulletins.m8603725152#1711"    cd /Users/matthew/Desktop/CMPT275/FASApp    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.1 -iquote /Users/matthew/Desktop/CMPT275/FASApp/build/FASApp.build/Debug-iphoneos/FASApp.build/FASApp-generated-files.hmap -I/Users/matthew/Desktop/CMPT275/FASApp/build/FASApp.build/Debug-iphoneos/FASApp.build/FASApp-own-target-headers.hmap -I/Users/matthew/Desktop/CMPT275/FASApp/build/FASApp.build/Debug-iphoneos/FASApp.build/FASApp-all-target-headers.hmap -iquote /Users/matthew/Desktop/CMPT275/FASApp/build/FASApp.build/Debug-iphoneos/FASApp.build/FASApp-project-headers.hmap -F/Users/matthew/Desktop/CMPT275/FASApp/build/Debug-iphoneos -I/Users/matthew/Desktop/CMPT275/FASApp/build/Debug-iphoneos/include -I/Users/matthew/Desktop/CMPT275/FASApp/build/FASApp.build/Debug-iphoneos/FASApp.build/DerivedSources/armv7 -I/Users/matthew/Desktop/CMPT275/FASApp/build/FASApp.build/Debug-iphoneos/FASApp.build/DerivedSources -include /var/folders/Bs/BsR3qIplGWWwc9MfqHrARk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FASApp_Prefix-bjlesocrlrvcpwftthbnfrhngptq/FASApp_Prefix.pch -c /Users/matthew/Desktop/CMPT275/FASApp/Classes/Bulletins.m -o /Users/matthew/Desktop/CMPT275/FASApp/build/FASApp.build/Debug-iphoneos/FASApp.build/Objects-normal/armv7/Bulletins.o0#
-
-CCompileC build/FASApp.build/Debug-iphoneos/FASApp.build/Objects-normal/armv7/Contacts.o /Users/matthew/Desktop/CMPT275/FASApp/Classes/Contacts.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-s312942369.676705
-e312942369.761767
-r1
-xCompileC
-xbuild/FASApp.build/Debug-iphoneos/FASApp.build/Objects-normal/armv7/Contacts.o
-x/Users/matthew/Desktop/CMPT275/FASApp/Classes/Contacts.m
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@64"Compile /Users/matthew/Desktop/CMPT275/FASApp/Classes/Contacts.m312942369#312942369#0(0"0(0#0#56"/Users/matthew/Desktop/CMPT275/FASApp/Classes/Contacts.m8607036224#1709"    cd /Users/matthew/Desktop/CMPT275/FASApp    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.1 -iquote /Users/matthew/Desktop/CMPT275/FASApp/build/FASApp.build/Debug-iphoneos/FASApp.build/FASApp-generated-files.hmap -I/Users/matthew/Desktop/CMPT275/FASApp/build/FASApp.build/Debug-iphoneos/FASApp.build/FASApp-own-target-headers.hmap -I/Users/matthew/Desktop/CMPT275/FASApp/build/FASApp.build/Debug-iphoneos/FASApp.build/FASApp-all-target-headers.hmap -iquote /Users/matthew/Desktop/CMPT275/FASApp/build/FASApp.build/Debug-iphoneos/FASApp.build/FASApp-project-headers.hmap -F/Users/matthew/Desktop/CMPT275/FASApp/build/Debug-iphoneos -I/Users/matthew/Desktop/CMPT275/FASApp/build/Debug-iphoneos/include -I/Users/matthew/Desktop/CMPT275/FASApp/build/FASApp.build/Debug-iphoneos/FASApp.build/DerivedSources/armv7 -I/Users/matthew/Desktop/CMPT275/FASApp/build/FASApp.build/Debug-iphoneos/FASApp.build/DerivedSources -include /var/folders/Bs/BsR3qIplGWWwc9MfqHrARk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FASApp_Prefix-bjlesocrlrvcpwftthbnfrhngptq/FASApp_Prefix.pch -c /Users/matthew/Desktop/CMPT275/FASApp/Classes/Contacts.m -o /Users/matthew/Desktop/CMPT275/FASApp/build/FASApp.build/Debug-iphoneos/FASApp.build/Objects-normal/armv7/Contacts.o0#
-
-CCompileC build/FASApp.build/Debug-iphoneos/FASApp.build/Objects-normal/armv7/DetailViewController.o /Users/matthew/Desktop/CMPT275/FASApp/Classes/DetailViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-s312942369.126386
-e312942369.215523
-r1
-xCompileC
-xbuild/FASApp.build/Debug-iphoneos/FASApp.build/Objects-normal/armv7/DetailViewController.o
-x/Users/matthew/Desktop/CMPT275/FASApp/Classes/DetailViewController.m
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@76"Compile /Users/matthew/Desktop/CMPT275/FASApp/Classes/DetailViewController.m312942369#312942369#0(0"0(0#0#68"/Users/matthew/Desktop/CMPT275/FASApp/Classes/DetailViewController.m8607048320#1733"    cd /Users/matthew/Desktop/CMPT275/FASApp    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.1 -iquote /Users/matthew/Desktop/CMPT275/FASApp/build/FASApp.build/Debug-iphoneos/FASApp.build/FASApp-generated-files.hmap -I/Users/matthew/Desktop/CMPT275/FASApp/build/FASApp.build/Debug-iphoneos/FASApp.build/FASApp-own-target-headers.hmap -I/Users/matthew/Desktop/CMPT275/FASApp/build/FASApp.build/Debug-iphoneos/FASApp.build/FASApp-all-target-headers.hmap -iquote /Users/matthew/Desktop/CMPT275/FASApp/build/FASApp.build/Debug-iphoneos/FASApp.build/FASApp-project-headers.hmap -F/Users/matthew/Desktop/CMPT275/FASApp/build/Debug-iphoneos -I/Users/matthew/Desktop/CMPT275/FASApp/build/Debug-iphoneos/include -I/Users/matthew/Desktop/CMPT275/FASApp/build/FASApp.build/Debug-iphoneos/FASApp.build/DerivedSources/armv7 -I/Users/matthew/Desktop/CMPT275/FASApp/build/FASApp.build/Debug-iphoneos/FASApp.build/DerivedSources -include /var/folders/Bs/BsR3qIplGWWwc9MfqHrARk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FASApp_Prefix-bjlesocrlrvcpwftthbnfrhngptq/FASApp_Prefix.pch -c /Users/matthew/Desktop/CMPT275/FASApp/Classes/DetailViewController.m -o /Users/matthew/Desktop/CMPT275/FASApp/build/FASApp.build/Debug-iphoneos/FASApp.build/Objects-normal/armv7/DetailViewController.o0#
-
-CCompileC build/FASApp.build/Debug-iphoneos/FASApp.build/Objects-normal/armv7/Directory.o /Users/matthew/Desktop/CMPT275/FASApp/Classes/Directory.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-s312942369.698526
-e312942369.786698
-r1
-xCompileC
-xbuild/FASApp.build/Debug-iphoneos/FASApp.build/Objects-normal/armv7/Directory.o
-x/Users/matthew/Desktop/CMPT275/FASApp/Classes/Directory.m
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@65"Compile /Users/matthew/Desktop/CMPT275/FASApp/Classes/Directory.m312942369#312942369#0(0"0(0#0#57"/Users/matthew/Desktop/CMPT275/FASApp/Classes/Directory.m8605489120#1711"    cd /Users/matthew/Desktop/CMPT275/FASApp    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.1 -iquote /Users/matthew/Desktop/CMPT275/FASApp/build/FASApp.build/Debug-iphoneos/FASApp.build/FASApp-generated-files.hmap -I/Users/matthew/Desktop/CMPT275/FASApp/build/FASApp.build/Debug-iphoneos/FASApp.build/FASApp-own-target-headers.hmap -I/Users/matthew/Desktop/CMPT275/FASApp/build/FASApp.build/Debug-iphoneos/FASApp.build/FASApp-all-target-headers.hmap -iquote /Users/matthew/Desktop/CMPT275/FASApp/build/FASApp.build/Debug-iphoneos/FASApp.build/FASApp-project-headers.hmap -F/Users/matthew/Desktop/CMPT275/FASApp/build/Debug-iphoneos -I/Users/matthew/Desktop/CMPT275/FASApp/build/Debug-iphoneos/include -I/Users/matthew/Desktop/CMPT275/FASApp/build/FASApp.build/Debug-iphoneos/FASApp.build/DerivedSources/armv7 -I/Users/matthew/Desktop/CMPT275/FASApp/build/FASApp.build/Debug-iphoneos/FASApp.build/DerivedSources -include /var/folders/Bs/BsR3qIplGWWwc9MfqHrARk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FASApp_Prefix-bjlesocrlrvcpwftthbnfrhngptq/FASApp_Prefix.pch -c /Users/matthew/Desktop/CMPT275/FASApp/Classes/Directory.m -o /Users/matthew/Desktop/CMPT275/FASApp/build/FASApp.build/Debug-iphoneos/FASApp.build/Objects-normal/armv7/Directory.o0#
-
-CCompileC build/FASApp.build/Debug-iphoneos/FASApp.build/Objects-normal/armv7/EventsList.o /Users/matthew/Desktop/CMPT275/FASApp/Classes/EventsList.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-s312942369.207284
-e312942369.308224
-r1
-xCompileC
-xbuild/FASApp.build/Debug-iphoneos/FASApp.build/Objects-normal/armv7/EventsList.o
-x/Users/matthew/Desktop/CMPT275/FASApp/Classes/EventsList.m
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@66"Compile /Users/matthew/Desktop/CMPT275/FASApp/Classes/EventsList.m312942369#312942369#0(0"0(0#0#58"/Users/matthew/Desktop/CMPT275/FASApp/Classes/EventsList.m8605245664#1713"    cd /Users/matthew/Desktop/CMPT275/FASApp    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.1 -iquote /Users/matthew/Desktop/CMPT275/FASApp/build/FASApp.build/Debug-iphoneos/FASApp.build/FASApp-generated-files.hmap -I/Users/matthew/Desktop/CMPT275/FASApp/build/FASApp.build/Debug-iphoneos/FASApp.build/FASApp-own-target-headers.hmap -I/Users/matthew/Desktop/CMPT275/FASApp/build/FASApp.build/Debug-iphoneos/FASApp.build/FASApp-all-target-headers.hmap -iquote /Users/matthew/Desktop/CMPT275/FASApp/build/FASApp.build/Debug-iphoneos/FASApp.build/FASApp-project-headers.hmap -F/Users/matthew/Desktop/CMPT275/FASApp/build/Debug-iphoneos -I/Users/matthew/Desktop/CMPT275/FASApp/build/Debug-iphoneos/include -I/Users/matthew/Desktop/CMPT275/FASApp/build/FASApp.build/Debug-iphoneos/FASApp.build/DerivedSources/armv7 -I/Users/matthew/Desktop/CMPT275/FASApp/build/FASApp.build/Debug-iphoneos/FASApp.build/DerivedSources -include /var/folders/Bs/BsR3qIplGWWwc9MfqHrARk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FASApp_Prefix-bjlesocrlrvcpwftthbnfrhngptq/FASApp_Prefix.pch -c /Users/matthew/Desktop/CMPT275/FASApp/Classes/EventsList.m -o /Users/matthew/Desktop/CMPT275/FASApp/build/FASApp.build/Debug-iphoneos/FASApp.build/Objects-normal/armv7/EventsList.o0#
-
-CCompileC build/FASApp.build/Debug-iphoneos/FASApp.build/Objects-normal/armv7/FASAppAppDelegate.o /Users/matthew/Desktop/CMPT275/FASApp/Classes/FASAppAppDelegate.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-s312942369.062392
-e312942369.207172
-r1
-xCompileC
-xbuild/FASApp.build/Debug-iphoneos/FASApp.build/Objects-normal/armv7/FASAppAppDelegate.o
-x/Users/matthew/Desktop/CMPT275/FASApp/Classes/FASAppAppDelegate.m
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@73"Compile /Users/matthew/Desktop/CMPT275/FASApp/Classes/FASAppAppDelegate.m312942369#312942369#0(0"0(0#0#65"/Users/matthew/Desktop/CMPT275/FASApp/Classes/FASAppAppDelegate.m8605212608#1727"    cd /Users/matthew/Desktop/CMPT275/FASApp    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.1 -iquote /Users/matthew/Desktop/CMPT275/FASApp/build/FASApp.build/Debug-iphoneos/FASApp.build/FASApp-generated-files.hmap -I/Users/matthew/Desktop/CMPT275/FASApp/build/FASApp.build/Debug-iphoneos/FASApp.build/FASApp-own-target-headers.hmap -I/Users/matthew/Desktop/CMPT275/FASApp/build/FASApp.build/Debug-iphoneos/FASApp.build/FASApp-all-target-headers.hmap -iquote /Users/matthew/Desktop/CMPT275/FASApp/build/FASApp.build/Debug-iphoneos/FASApp.build/FASApp-project-headers.hmap -F/Users/matthew/Desktop/CMPT275/FASApp/build/Debug-iphoneos -I/Users/matthew/Desktop/CMPT275/FASApp/build/Debug-iphoneos/include -I/Users/matthew/Desktop/CMPT275/FASApp/build/FASApp.build/Debug-iphoneos/FASApp.build/DerivedSources/armv7 -I/Users/matthew/Desktop/CMPT275/FASApp/build/FASApp.build/Debug-iphoneos/FASApp.build/DerivedSources -include /var/folders/Bs/BsR3qIplGWWwc9MfqHrARk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FASApp_Prefix-bjlesocrlrvcpwftthbnfrhngptq/FASApp_Prefix.pch -c /Users/matthew/Desktop/CMPT275/FASApp/Classes/FASAppAppDelegate.m -o /Users/matthew/Desktop/CMPT275/FASApp/build/FASApp.build/Debug-iphoneos/FASApp.build/Objects-normal/armv7/FASAppAppDelegate.o0#
-
-CCompileC build/FASApp.build/Debug-iphoneos/FASApp.build/Objects-normal/armv7/FASTabBarController.o /Users/matthew/Desktop/CMPT275/FASApp/Classes/FASTabBarController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-s312942369.437612
-e312942369.522851
-r1
-xCompileC
-xbuild/FASApp.build/Debug-iphoneos/FASApp.build/Objects-normal/armv7/FASTabBarController.o
-x/Users/matthew/Desktop/CMPT275/FASApp/Classes/FASTabBarController.m
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@75"Compile /Users/matthew/Desktop/CMPT275/FASApp/Classes/FASTabBarController.m312942369#312942369#0(0"0(0#0#67"/Users/matthew/Desktop/CMPT275/FASApp/Classes/FASTabBarController.m8605055296#1731"    cd /Users/matthew/Desktop/CMPT275/FASApp    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.1 -iquote /Users/matthew/Desktop/CMPT275/FASApp/build/FASApp.build/Debug-iphoneos/FASApp.build/FASApp-generated-files.hmap -I/Users/matthew/Desktop/CMPT275/FASApp/build/FASApp.build/Debug-iphoneos/FASApp.build/FASApp-own-target-headers.hmap -I/Users/matthew/Desktop/CMPT275/FASApp/build/FASApp.build/Debug-iphoneos/FASApp.build/FASApp-all-target-headers.hmap -iquote /Users/matthew/Desktop/CMPT275/FASApp/build/FASApp.build/Debug-iphoneos/FASApp.build/FASApp-project-headers.hmap -F/Users/matthew/Desktop/CMPT275/FASApp/build/Debug-iphoneos -I/Users/matthew/Desktop/CMPT275/FASApp/build/Debug-iphoneos/include -I/Users/matthew/Desktop/CMPT275/FASApp/build/FASApp.build/Debug-iphoneos/FASApp.build/DerivedSources/armv7 -I/Users/matthew/Desktop/CMPT275/FASApp/build/FASApp.build/Debug-iphoneos/FASApp.build/DerivedSources -include /var/folders/Bs/BsR3qIplGWWwc9MfqHrARk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FASApp_Prefix-bjlesocrlrvcpwftthbnfrhngptq/FASApp_Prefix.pch -c /Users/matthew/Desktop/CMPT275/FASApp/Classes/FASTabBarController.m -o /Users/matthew/Desktop/CMPT275/FASApp/build/FASApp.build/Debug-iphoneos/FASApp.build/Objects-normal/armv7/FASTabBarController.o0#
-
-CCompileC build/FASApp.build/Debug-iphoneos/FASApp.build/Objects-normal/armv7/FeedOption.o /Users/matthew/Desktop/CMPT275/FASApp/Classes/FeedOption.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-s312942369.215627
-e312942369.329283
-r1
-xCompileC
-xbuild/FASApp.build/Debug-iphoneos/FASApp.build/Objects-normal/armv7/FeedOption.o
-x/Users/matthew/Desktop/CMPT275/FASApp/Classes/FeedOption.m
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@66"Compile /Users/matthew/Desktop/CMPT275/FASApp/Classes/FeedOption.m312942369#312942369#0(0"0(0#0#58"/Users/matthew/Desktop/CMPT275/FASApp/Classes/FeedOption.m8604250688#1713"    cd /Users/matthew/Desktop/CMPT275/FASApp    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.1 -iquote /Users/matthew/Desktop/CMPT275/FASApp/build/FASApp.build/Debug-iphoneos/FASApp.build/FASApp-generated-files.hmap -I/Users/matthew/Desktop/CMPT275/FASApp/build/FASApp.build/Debug-iphoneos/FASApp.build/FASApp-own-target-headers.hmap -I/Users/matthew/Desktop/CMPT275/FASApp/build/FASApp.build/Debug-iphoneos/FASApp.build/FASApp-all-target-headers.hmap -iquote /Users/matthew/Desktop/CMPT275/FASApp/build/FASApp.build/Debug-iphoneos/FASApp.build/FASApp-project-headers.hmap -F/Users/matthew/Desktop/CMPT275/FASApp/build/Debug-iphoneos -I/Users/matthew/Desktop/CMPT275/FASApp/build/Debug-iphoneos/include -I/Users/matthew/Desktop/CMPT275/FASApp/build/FASApp.build/Debug-iphoneos/FASApp.build/DerivedSources/armv7 -I/Users/matthew/Desktop/CMPT275/FASApp/build/FASApp.build/Debug-iphoneos/FASApp.build/DerivedSources -include /var/folders/Bs/BsR3qIplGWWwc9MfqHrARk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FASApp_Prefix-bjlesocrlrvcpwftthbnfrhngptq/FASApp_Prefix.pch -c /Users/matthew/Desktop/CMPT275/FASApp/Classes/FeedOption.m -o /Users/matthew/Desktop/CMPT275/FASApp/build/FASApp.build/Debug-iphoneos/FASApp.build/Objects-normal/armv7/FeedOption.o0#
-
-CCompileC build/FASApp.build/Debug-iphoneos/FASApp.build/Objects-normal/armv7/Message.o /Users/matthew/Desktop/CMPT275/FASApp/Classes/Message.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-s312942369.761879
-e312942369.871230
-r1
-xCompileC
-xbuild/FASApp.build/Debug-iphoneos/FASApp.build/Objects-normal/armv7/Message.o
-x/Users/matthew/Desktop/CMPT275/FASApp/Classes/Message.m
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@63"Compile /Users/matthew/Desktop/CMPT275/FASApp/Classes/Message.m312942369#312942369#0(0"0(0#0#55"/Users/matthew/Desktop/CMPT275/FASApp/Classes/Message.m8604702624#1707"    cd /Users/matthew/Desktop/CMPT275/FASApp    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.1 -iquote /Users/matthew/Desktop/CMPT275/FASApp/build/FASApp.build/Debug-iphoneos/FASApp.build/FASApp-generated-files.hmap -I/Users/matthew/Desktop/CMPT275/FASApp/build/FASApp.build/Debug-iphoneos/FASApp.build/FASApp-own-target-headers.hmap -I/Users/matthew/Desktop/CMPT275/FASApp/build/FASApp.build/Debug-iphoneos/FASApp.build/FASApp-all-target-headers.hmap -iquote /Users/matthew/Desktop/CMPT275/FASApp/build/FASApp.build/Debug-iphoneos/FASApp.build/FASApp-project-headers.hmap -F/Users/matthew/Desktop/CMPT275/FASApp/build/Debug-iphoneos -I/Users/matthew/Desktop/CMPT275/FASApp/build/Debug-iphoneos/include -I/Users/matthew/Desktop/CMPT275/FASApp/build/FASApp.build/Debug-iphoneos/FASApp.build/DerivedSources/armv7 -I/Users/matthew/Desktop/CMPT275/FASApp/build/FASApp.build/Debug-iphoneos/FASApp.build/DerivedSources -include /var/folders/Bs/BsR3qIplGWWwc9MfqHrARk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FASApp_Prefix-bjlesocrlrvcpwftthbnfrhngptq/FASApp_Prefix.pch -c /Users/matthew/Desktop/CMPT275/FASApp/Classes/Message.m -o /Users/matthew/Desktop/CMPT275/FASApp/build/FASApp.build/Debug-iphoneos/FASApp.build/Objects-normal/armv7/Message.o0#
-
-CCompileC build/FASApp.build/Debug-iphoneos/FASApp.build/Objects-normal/armv7/NewsList.o /Users/matthew/Desktop/CMPT275/FASApp/Classes/NewsList.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-s312942369.308327
-e312942369.412385
-r1
-xCompileC
-xbuild/FASApp.build/Debug-iphoneos/FASApp.build/Objects-normal/armv7/NewsList.o
-x/Users/matthew/Desktop/CMPT275/FASApp/Classes/NewsList.m
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@64"Compile /Users/matthew/Desktop/CMPT275/FASApp/Classes/NewsList.m312942369#312942369#0(0"0(0#0#56"/Users/matthew/Desktop/CMPT275/FASApp/Classes/NewsList.m8605573408#1709"    cd /Users/matthew/Desktop/CMPT275/FASApp    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.1 -iquote /Users/matthew/Desktop/CMPT275/FASApp/build/FASApp.build/Debug-iphoneos/FASApp.build/FASApp-generated-files.hmap -I/Users/matthew/Desktop/CMPT275/FASApp/build/FASApp.build/Debug-iphoneos/FASApp.build/FASApp-own-target-headers.hmap -I/Users/matthew/Desktop/CMPT275/FASApp/build/FASApp.build/Debug-iphoneos/FASApp.build/FASApp-all-target-headers.hmap -iquote /Users/matthew/Desktop/CMPT275/FASApp/build/FASApp.build/Debug-iphoneos/FASApp.build/FASApp-project-headers.hmap -F/Users/matthew/Desktop/CMPT275/FASApp/build/Debug-iphoneos -I/Users/matthew/Desktop/CMPT275/FASApp/build/Debug-iphoneos/include -I/Users/matthew/Desktop/CMPT275/FASApp/build/FASApp.build/Debug-iphoneos/FASApp.build/DerivedSources/armv7 -I/Users/matthew/Desktop/CMPT275/FASApp/build/FASApp.build/Debug-iphoneos/FASApp.build/DerivedSources -include /var/folders/Bs/BsR3qIplGWWwc9MfqHrARk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FASApp_Prefix-bjlesocrlrvcpwftthbnfrhngptq/FASApp_Prefix.pch -c /Users/matthew/Desktop/CMPT275/FASApp/Classes/NewsList.m -o /Users/matthew/Desktop/CMPT275/FASApp/build/FASApp.build/Debug-iphoneos/FASApp.build/Objects-normal/armv7/NewsList.o0#
-
-CCompileC build/FASApp.build/Debug-iphoneos/FASApp.build/Objects-normal/armv7/RSSParser.o /Users/matthew/Desktop/CMPT275/FASApp/Classes/RSSParser.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-s312942369.329387
-e312942369.437510
-r1
-xCompileC
-xbuild/FASApp.build/Debug-iphoneos/FASApp.build/Objects-normal/armv7/RSSParser.o
-x/Users/matthew/Desktop/CMPT275/FASApp/Classes/RSSParser.m
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-o/Users/matthew/Desktop/CMPT275/FASApp/Classes/RSSParser.m: In function '-[RSSParser parseURL:]':
-o/Users/matthew/Desktop/CMPT275/FASApp/Classes/RSSParser.m:24: warning: 'RSSParser' may not respond to '-parseXMLFileAtURL:'
-o/Users/matthew/Desktop/CMPT275/FASApp/Classes/RSSParser.m:24: warning: (Messages without a matching method signature
-o/Users/matthew/Desktop/CMPT275/FASApp/Classes/RSSParser.m:24: warning: will be assumed to return 'id' and accept
-o/Users/matthew/Desktop/CMPT275/FASApp/Classes/RSSParser.m:24: warning: '...' as arguments.)
-o/Users/matthew/Desktop/CMPT275/FASApp/Classes/RSSParser.m: In function '-[RSSParser parseXMLFileAtURL:]':
-o/Users/matthew/Desktop/CMPT275/FASApp/Classes/RSSParser.m:40: warning: class 'RSSParser' does not implement the 'NSXMLParserDelegate' protocol
-lSLF07#2@65"Compile /Users/matthew/Desktop/CMPT275/FASApp/Classes/RSSParser.m312942369#312942369#0(792"/Users/matthew/Desktop/CMPT275/FASApp/Classes/RSSParser.m: In function '-[RSSParser parseURL:]':/Users/matthew/Desktop/CMPT275/FASApp/Classes/RSSParser.m:24: warning: 'RSSParser' may not respond to '-parseXMLFileAtURL:'/Users/matthew/Desktop/CMPT275/FASApp/Classes/RSSParser.m:24: warning: (Messages without a matching method signature/Users/matthew/Desktop/CMPT275/FASApp/Classes/RSSParser.m:24: warning: will be assumed to return 'id' and accept/Users/matthew/Desktop/CMPT275/FASApp/Classes/RSSParser.m:24: warning: '...' as arguments.)/Users/matthew/Desktop/CMPT275/FASApp/Classes/RSSParser.m: In function '-[RSSParser parseXMLFileAtURL:]':/Users/matthew/Desktop/CMPT275/FASApp/Classes/RSSParser.m:40: warning: class 'RSSParser' does not implement the 'NSXMLParserDelegate' protocol3(22@52"'RSSParser' may not respond to '-parseXMLFileAtURL:'312942369#97#124#0(6@57"/Users/matthew/Desktop/CMPT275/FASApp/Classes/RSSParser.m312085751#24#0#24#0#26"'*' may not respond to '*'0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)312942369#221#117#0(6@57"/Users/matthew/Desktop/CMPT275/FASApp/Classes/RSSParser.m312085751#24#0#24#0#0"0(22@71"Class 'RSSParser' does not implement the 'NSXMLParserDelegate' protocol312942369#649#143#0(6@57"/Users/matthew/Desktop/CMPT275/FASApp/Classes/RSSParser.m312085751#40#0#40#0#45"class '*' does not implement the '*' protocol0(0#0#57"/Users/matthew/Desktop/CMPT275/FASApp/Classes/RSSParser.m8604342240#1711"    cd /Users/matthew/Desktop/CMPT275/FASApp    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.1 -iquote /Users/matthew/Desktop/CMPT275/FASApp/build/FASApp.build/Debug-iphoneos/FASApp.build/FASApp-generated-files.hmap -I/Users/matthew/Desktop/CMPT275/FASApp/build/FASApp.build/Debug-iphoneos/FASApp.build/FASApp-own-target-headers.hmap -I/Users/matthew/Desktop/CMPT275/FASApp/build/FASApp.build/Debug-iphoneos/FASApp.build/FASApp-all-target-headers.hmap -iquote /Users/matthew/Desktop/CMPT275/FASApp/build/FASApp.build/Debug-iphoneos/FASApp.build/FASApp-project-headers.hmap -F/Users/matthew/Desktop/CMPT275/FASApp/build/Debug-iphoneos -I/Users/matthew/Desktop/CMPT275/FASApp/build/Debug-iphoneos/include -I/Users/matthew/Desktop/CMPT275/FASApp/build/FASApp.build/Debug-iphoneos/FASApp.build/DerivedSources/armv7 -I/Users/matthew/Desktop/CMPT275/FASApp/build/FASApp.build/Debug-iphoneos/FASApp.build/DerivedSources -include /var/folders/Bs/BsR3qIplGWWwc9MfqHrARk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FASApp_Prefix-bjlesocrlrvcpwftthbnfrhngptq/FASApp_Prefix.pch -c /Users/matthew/Desktop/CMPT275/FASApp/Classes/RSSParser.m -o /Users/matthew/Desktop/CMPT275/FASApp/build/FASApp.build/Debug-iphoneos/FASApp.build/Objects-normal/armv7/RSSParser.o0#
-
-CCompileC build/FASApp.build/Debug-iphoneos/FASApp.build/Objects-normal/armv7/SFUConnect.o /Users/matthew/Desktop/CMPT275/FASApp/Classes/SFUConnect.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-s312942369.523014
-e312942369.676603
-r1
-xCompileC
-xbuild/FASApp.build/Debug-iphoneos/FASApp.build/Objects-normal/armv7/SFUConnect.o
-x/Users/matthew/Desktop/CMPT275/FASApp/Classes/SFUConnect.m
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@66"Compile /Users/matthew/Desktop/CMPT275/FASApp/Classes/SFUConnect.m312942369#312942369#0(0"0(0#0#58"/Users/matthew/Desktop/CMPT275/FASApp/Classes/SFUConnect.m8604165824#1713"    cd /Users/matthew/Desktop/CMPT275/FASApp    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.1 -iquote /Users/matthew/Desktop/CMPT275/FASApp/build/FASApp.build/Debug-iphoneos/FASApp.build/FASApp-generated-files.hmap -I/Users/matthew/Desktop/CMPT275/FASApp/build/FASApp.build/Debug-iphoneos/FASApp.build/FASApp-own-target-headers.hmap -I/Users/matthew/Desktop/CMPT275/FASApp/build/FASApp.build/Debug-iphoneos/FASApp.build/FASApp-all-target-headers.hmap -iquote /Users/matthew/Desktop/CMPT275/FASApp/build/FASApp.build/Debug-iphoneos/FASApp.build/FASApp-project-headers.hmap -F/Users/matthew/Desktop/CMPT275/FASApp/build/Debug-iphoneos -I/Users/matthew/Desktop/CMPT275/FASApp/build/Debug-iphoneos/include -I/Users/matthew/Desktop/CMPT275/FASApp/build/FASApp.build/Debug-iphoneos/FASApp.build/DerivedSources/armv7 -I/Users/matthew/Desktop/CMPT275/FASApp/build/FASApp.build/Debug-iphoneos/FASApp.build/DerivedSources -include /var/folders/Bs/BsR3qIplGWWwc9MfqHrARk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FASApp_Prefix-bjlesocrlrvcpwftthbnfrhngptq/FASApp_Prefix.pch -c /Users/matthew/Desktop/CMPT275/FASApp/Classes/SFUConnect.m -o /Users/matthew/Desktop/CMPT275/FASApp/build/FASApp.build/Debug-iphoneos/FASApp.build/Objects-normal/armv7/SFUConnect.o0#
-
-CCompileC build/FASApp.build/Debug-iphoneos/FASApp.build/Objects-normal/armv7/TransparentToolbar.o /Users/matthew/Desktop/CMPT275/FASApp/Classes/TransparentToolbar.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-s312942369.899941
-e312942369.969264
-r1
-xCompileC
-xbuild/FASApp.build/Debug-iphoneos/FASApp.build/Objects-normal/armv7/TransparentToolbar.o
-x/Users/matthew/Desktop/CMPT275/FASApp/Classes/TransparentToolbar.m
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@74"Compile /Users/matthew/Desktop/CMPT275/FASApp/Classes/TransparentToolbar.m312942369#312942369#0(0"0(0#0#66"/Users/matthew/Desktop/CMPT275/FASApp/Classes/TransparentToolbar.m8606766048#1729"    cd /Users/matthew/Desktop/CMPT275/FASApp    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.1 -iquote /Users/matthew/Desktop/CMPT275/FASApp/build/FASApp.build/Debug-iphoneos/FASApp.build/FASApp-generated-files.hmap -I/Users/matthew/Desktop/CMPT275/FASApp/build/FASApp.build/Debug-iphoneos/FASApp.build/FASApp-own-target-headers.hmap -I/Users/matthew/Desktop/CMPT275/FASApp/build/FASApp.build/Debug-iphoneos/FASApp.build/FASApp-all-target-headers.hmap -iquote /Users/matthew/Desktop/CMPT275/FASApp/build/FASApp.build/Debug-iphoneos/FASApp.build/FASApp-project-headers.hmap -F/Users/matthew/Desktop/CMPT275/FASApp/build/Debug-iphoneos -I/Users/matthew/Desktop/CMPT275/FASApp/build/Debug-iphoneos/include -I/Users/matthew/Desktop/CMPT275/FASApp/build/FASApp.build/Debug-iphoneos/FASApp.build/DerivedSources/armv7 -I/Users/matthew/Desktop/CMPT275/FASApp/build/FASApp.build/Debug-iphoneos/FASApp.build/DerivedSources -include /var/folders/Bs/BsR3qIplGWWwc9MfqHrARk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FASApp_Prefix-bjlesocrlrvcpwftthbnfrhngptq/FASApp_Prefix.pch -c /Users/matthew/Desktop/CMPT275/FASApp/Classes/TransparentToolbar.m -o /Users/matthew/Desktop/CMPT275/FASApp/build/FASApp.build/Debug-iphoneos/FASApp.build/Objects-normal/armv7/TransparentToolbar.o0#
-
-CCompileC build/FASApp.build/Debug-iphoneos/FASApp.build/Objects-normal/armv7/WebConnection.o /Users/matthew/Desktop/CMPT275/FASApp/Classes/WebConnection.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-s312942369.503877
-e312942369.582640
-r1
-xCompileC
-xbuild/FASApp.build/Debug-iphoneos/FASApp.build/Objects-normal/armv7/WebConnection.o
-x/Users/matthew/Desktop/CMPT275/FASApp/Classes/WebConnection.m
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@69"Compile /Users/matthew/Desktop/CMPT275/FASApp/Classes/WebConnection.m312942369#312942369#0(0"0(0#0#61"/Users/matthew/Desktop/CMPT275/FASApp/Classes/WebConnection.m8604428608#1719"    cd /Users/matthew/Desktop/CMPT275/FASApp    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.1 -iquote /Users/matthew/Desktop/CMPT275/FASApp/build/FASApp.build/Debug-iphoneos/FASApp.build/FASApp-generated-files.hmap -I/Users/matthew/Desktop/CMPT275/FASApp/build/FASApp.build/Debug-iphoneos/FASApp.build/FASApp-own-target-headers.hmap -I/Users/matthew/Desktop/CMPT275/FASApp/build/FASApp.build/Debug-iphoneos/FASApp.build/FASApp-all-target-headers.hmap -iquote /Users/matthew/Desktop/CMPT275/FASApp/build/FASApp.build/Debug-iphoneos/FASApp.build/FASApp-project-headers.hmap -F/Users/matthew/Desktop/CMPT275/FASApp/build/Debug-iphoneos -I/Users/matthew/Desktop/CMPT275/FASApp/build/Debug-iphoneos/include -I/Users/matthew/Desktop/CMPT275/FASApp/build/FASApp.build/Debug-iphoneos/FASApp.build/DerivedSources/armv7 -I/Users/matthew/Desktop/CMPT275/FASApp/build/FASApp.build/Debug-iphoneos/FASApp.build/DerivedSources -include /var/folders/Bs/BsR3qIplGWWwc9MfqHrARk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FASApp_Prefix-bjlesocrlrvcpwftthbnfrhngptq/FASApp_Prefix.pch -c /Users/matthew/Desktop/CMPT275/FASApp/Classes/WebConnection.m -o /Users/matthew/Desktop/CMPT275/FASApp/build/FASApp.build/Debug-iphoneos/FASApp.build/Objects-normal/armv7/WebConnection.o0#
-
-CCompileC build/FASApp.build/Debug-iphoneos/FASApp.build/Objects-normal/armv7/WebViewController.o /Users/matthew/Desktop/CMPT275/FASApp/Classes/WebViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-s312942369.412487
-e312942369.503777
-r1
-xCompileC
-xbuild/FASApp.build/Debug-iphoneos/FASApp.build/Objects-normal/armv7/WebViewController.o
-x/Users/matthew/Desktop/CMPT275/FASApp/Classes/WebViewController.m
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@73"Compile /Users/matthew/Desktop/CMPT275/FASApp/Classes/WebViewController.m312942369#312942369#0(0"0(0#0#65"/Users/matthew/Desktop/CMPT275/FASApp/Classes/WebViewController.m8602102528#1727"    cd /Users/matthew/Desktop/CMPT275/FASApp    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.1 -iquote /Users/matthew/Desktop/CMPT275/FASApp/build/FASApp.build/Debug-iphoneos/FASApp.build/FASApp-generated-files.hmap -I/Users/matthew/Desktop/CMPT275/FASApp/build/FASApp.build/Debug-iphoneos/FASApp.build/FASApp-own-target-headers.hmap -I/Users/matthew/Desktop/CMPT275/FASApp/build/FASApp.build/Debug-iphoneos/FASApp.build/FASApp-all-target-headers.hmap -iquote /Users/matthew/Desktop/CMPT275/FASApp/build/FASApp.build/Debug-iphoneos/FASApp.build/FASApp-project-headers.hmap -F/Users/matthew/Desktop/CMPT275/FASApp/build/Debug-iphoneos -I/Users/matthew/Desktop/CMPT275/FASApp/build/Debug-iphoneos/include -I/Users/matthew/Desktop/CMPT275/FASApp/build/FASApp.build/Debug-iphoneos/FASApp.build/DerivedSources/armv7 -I/Users/matthew/Desktop/CMPT275/FASApp/build/FASApp.build/Debug-iphoneos/FASApp.build/DerivedSources -include /var/folders/Bs/BsR3qIplGWWwc9MfqHrARk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FASApp_Prefix-bjlesocrlrvcpwftthbnfrhngptq/FASApp_Prefix.pch -c /Users/matthew/Desktop/CMPT275/FASApp/Classes/WebViewController.m -o /Users/matthew/Desktop/CMPT275/FASApp/build/FASApp.build/Debug-iphoneos/FASApp.build/Objects-normal/armv7/WebViewController.o0#
-
-CCompileC build/FASApp.build/Debug-iphoneos/FASApp.build/Objects-normal/armv7/main.o /Users/matthew/Desktop/CMPT275/FASApp/main.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-s312942368.995783
-e312942369.061510
-r1
-xCompileC
-xbuild/FASApp.build/Debug-iphoneos/FASApp.build/Objects-normal/armv7/main.o
-x/Users/matthew/Desktop/CMPT275/FASApp/main.m
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@52"Compile /Users/matthew/Desktop/CMPT275/FASApp/main.m312942368#312942369#0(0"0(0#0#44"/Users/matthew/Desktop/CMPT275/FASApp/main.m8607027264#1693"    cd /Users/matthew/Desktop/CMPT275/FASApp    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.1 -iquote /Users/matthew/Desktop/CMPT275/FASApp/build/FASApp.build/Debug-iphoneos/FASApp.build/FASApp-generated-files.hmap -I/Users/matthew/Desktop/CMPT275/FASApp/build/FASApp.build/Debug-iphoneos/FASApp.build/FASApp-own-target-headers.hmap -I/Users/matthew/Desktop/CMPT275/FASApp/build/FASApp.build/Debug-iphoneos/FASApp.build/FASApp-all-target-headers.hmap -iquote /Users/matthew/Desktop/CMPT275/FASApp/build/FASApp.build/Debug-iphoneos/FASApp.build/FASApp-project-headers.hmap -F/Users/matthew/Desktop/CMPT275/FASApp/build/Debug-iphoneos -I/Users/matthew/Desktop/CMPT275/FASApp/build/Debug-iphoneos/include -I/Users/matthew/Desktop/CMPT275/FASApp/build/FASApp.build/Debug-iphoneos/FASApp.build/DerivedSources/armv7 -I/Users/matthew/Desktop/CMPT275/FASApp/build/FASApp.build/Debug-iphoneos/FASApp.build/DerivedSources -include /var/folders/Bs/BsR3qIplGWWwc9MfqHrARk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FASApp_Prefix-bjlesocrlrvcpwftthbnfrhngptq/FASApp_Prefix.pch -c /Users/matthew/Desktop/CMPT275/FASApp/main.m -o /Users/matthew/Desktop/CMPT275/FASApp/build/FASApp.build/Debug-iphoneos/FASApp.build/Objects-normal/armv7/main.o0#
-
-CCompileXIB /Users/matthew/Desktop/CMPT275/FASApp/AboutFAS.xib
-s312942700.893557
-e312942701.140832
-r0
-xCompileXIB
-x/Users/matthew/Desktop/CMPT275/FASApp/AboutFAS.xib
-o/* com.apple.ibtool.errors */
-o/Users/matthew/Desktop/CMPT275/FASApp/AboutFAS.xib: error: File does not exist at path 'file://localhost/Users/matthew/Desktop/CMPT275/FASApp/AboutFAS.xib'
-lSLF07#2@23"CompileXIB AboutFAS.xib312942700#312942701#0(186"/* com.apple.ibtool.errors *//Users/matthew/Desktop/CMPT275/FASApp/AboutFAS.xib: error: File does not exist at path 'file://localhost/Users/matthew/Desktop/CMPT275/FASApp/AboutFAS.xib'1(4@96"File does not exist at path 'file://localhost/Users/matthew/Desktop/CMPT275/FASApp/AboutFAS.xib'312942701#18446744073709551615#0#0(6@50"/Users/matthew/Desktop/CMPT275/FASApp/AboutFAS.xib312942701#0#0#0#0#0"0(0#0#50"/Users/matthew/Desktop/CMPT275/FASApp/AboutFAS.xib14918409992142932#534"    cd /Users/matthew/Desktop/CMPT275/FASApp    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.1    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/matthew/Desktop/CMPT275/FASApp/build/Debug-iphoneos/FASApp.app/AboutFAS.nib /Users/matthew/Desktop/CMPT275/FASApp/AboutFAS.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk1#
-
-CCompileXIB /Users/matthew/Desktop/CMPT275/FASApp/AboutUs.xib
-s312942700.904311
-e312942701.146369
-r0
-xCompileXIB
-x/Users/matthew/Desktop/CMPT275/FASApp/AboutUs.xib
-o/* com.apple.ibtool.errors */
-o/Users/matthew/Desktop/CMPT275/FASApp/AboutUs.xib: error: File does not exist at path 'file://localhost/Users/matthew/Desktop/CMPT275/FASApp/AboutUs.xib'
-lSLF07#2@22"CompileXIB AboutUs.xib312942700#312942701#0(184"/* com.apple.ibtool.errors *//Users/matthew/Desktop/CMPT275/FASApp/AboutUs.xib: error: File does not exist at path 'file://localhost/Users/matthew/Desktop/CMPT275/FASApp/AboutUs.xib'1(4@95"File does not exist at path 'file://localhost/Users/matthew/Desktop/CMPT275/FASApp/AboutUs.xib'312942701#18446744073709551615#0#0(6@49"/Users/matthew/Desktop/CMPT275/FASApp/AboutUs.xib312942701#0#0#0#0#0"0(0#0#49"/Users/matthew/Desktop/CMPT275/FASApp/AboutUs.xib8602001504#532"    cd /Users/matthew/Desktop/CMPT275/FASApp    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.1    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/matthew/Desktop/CMPT275/FASApp/build/Debug-iphoneos/FASApp.app/AboutUs.nib /Users/matthew/Desktop/CMPT275/FASApp/AboutUs.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk1#
-
-CCompileXIB /Users/matthew/Desktop/CMPT275/FASApp/Bulletins.xib
-s312942366.675046
-e312942367.114523
-r1
-xCompileXIB
-x/Users/matthew/Desktop/CMPT275/FASApp/Bulletins.xib
-lSLF07#2@24"CompileXIB Bulletins.xib312942366#312942367#0(0"0(0#0#51"/Users/matthew/Desktop/CMPT275/FASApp/Bulletins.xib8604513824#536"    cd /Users/matthew/Desktop/CMPT275/FASApp    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.1    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/matthew/Desktop/CMPT275/FASApp/build/Debug-iphoneos/FASApp.app/Bulletins.nib /Users/matthew/Desktop/CMPT275/FASApp/Bulletins.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk0#
-
-CCompileXIB /Users/matthew/Desktop/CMPT275/FASApp/Contacts.xib
-s312942366.721066
-e312942367.205538
-r1
-xCompileXIB
-x/Users/matthew/Desktop/CMPT275/FASApp/Contacts.xib
-lSLF07#2@23"CompileXIB Contacts.xib312942366#312942367#0(0"0(0#0#50"/Users/matthew/Desktop/CMPT275/FASApp/Contacts.xib8604398528#534"    cd /Users/matthew/Desktop/CMPT275/FASApp    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.1    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/matthew/Desktop/CMPT275/FASApp/build/Debug-iphoneos/FASApp.app/Contacts.nib /Users/matthew/Desktop/CMPT275/FASApp/Contacts.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk0#
-
-CCompileXIB /Users/matthew/Desktop/CMPT275/FASApp/DetailView.xib
-s312942366.153078
-e312942366.674957
-r1
-xCompileXIB
-x/Users/matthew/Desktop/CMPT275/FASApp/DetailView.xib
-lSLF07#2@25"CompileXIB DetailView.xib312942366#312942366#0(0"0(0#0#52"/Users/matthew/Desktop/CMPT275/FASApp/DetailView.xib8607106240#538"    cd /Users/matthew/Desktop/CMPT275/FASApp    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.1    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/matthew/Desktop/CMPT275/FASApp/build/Debug-iphoneos/FASApp.app/DetailView.nib /Users/matthew/Desktop/CMPT275/FASApp/DetailView.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk0#
-
-CCompileXIB /Users/matthew/Desktop/CMPT275/FASApp/Directory.xib
-s312942367.114620
-e312942367.573898
-r1
-xCompileXIB
-x/Users/matthew/Desktop/CMPT275/FASApp/Directory.xib
-lSLF07#2@24"CompileXIB Directory.xib312942367#312942367#0(0"0(0#0#51"/Users/matthew/Desktop/CMPT275/FASApp/Directory.xib8604258656#536"    cd /Users/matthew/Desktop/CMPT275/FASApp    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.1    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/matthew/Desktop/CMPT275/FASApp/build/Debug-iphoneos/FASApp.app/Directory.nib /Users/matthew/Desktop/CMPT275/FASApp/Directory.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk0#
-
-CCompileXIB /Users/matthew/Desktop/CMPT275/FASApp/EventsList.xib
-s312942365.271065
-e312942365.787106
-r1
-xCompileXIB
-x/Users/matthew/Desktop/CMPT275/FASApp/EventsList.xib
-lSLF07#2@25"CompileXIB EventsList.xib312942365#312942365#0(0"0(0#0#52"/Users/matthew/Desktop/CMPT275/FASApp/EventsList.xib8604834816#538"    cd /Users/matthew/Desktop/CMPT275/FASApp    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.1    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/matthew/Desktop/CMPT275/FASApp/build/Debug-iphoneos/FASApp.app/EventsList.nib /Users/matthew/Desktop/CMPT275/FASApp/EventsList.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk0#
-
-CCompileXIB /Users/matthew/Desktop/CMPT275/FASApp/FeedOption.xib
-s312942365.281007
-e312942365.721624
-r1
-xCompileXIB
-x/Users/matthew/Desktop/CMPT275/FASApp/FeedOption.xib
-lSLF07#2@25"CompileXIB FeedOption.xib312942365#312942365#0(0"0(0#0#52"/Users/matthew/Desktop/CMPT275/FASApp/FeedOption.xib8603921152#538"    cd /Users/matthew/Desktop/CMPT275/FASApp    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.1    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/matthew/Desktop/CMPT275/FASApp/build/Debug-iphoneos/FASApp.app/FeedOption.nib /Users/matthew/Desktop/CMPT275/FASApp/FeedOption.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk0#
-
-CCompileXIB /Users/matthew/Desktop/CMPT275/FASApp/MainWindow.xib
-s312942364.707456
-e312942365.280919
-r1
-xCompileXIB
-x/Users/matthew/Desktop/CMPT275/FASApp/MainWindow.xib
-lSLF07#2@25"CompileXIB MainWindow.xib312942364#312942365#0(0"0(0#0#52"/Users/matthew/Desktop/CMPT275/FASApp/MainWindow.xib8606956704#538"    cd /Users/matthew/Desktop/CMPT275/FASApp    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.1    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/matthew/Desktop/CMPT275/FASApp/build/Debug-iphoneos/FASApp.app/MainWindow.nib /Users/matthew/Desktop/CMPT275/FASApp/MainWindow.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk0#
-
-CCompileXIB /Users/matthew/Desktop/CMPT275/FASApp/Message.xib
-s312942367.205626
-e312942367.707169
-r1
-xCompileXIB
-x/Users/matthew/Desktop/CMPT275/FASApp/Message.xib
-lSLF07#2@22"CompileXIB Message.xib312942367#312942367#0(0"0(0#0#49"/Users/matthew/Desktop/CMPT275/FASApp/Message.xib8604086688#532"    cd /Users/matthew/Desktop/CMPT275/FASApp    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.1    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/matthew/Desktop/CMPT275/FASApp/build/Debug-iphoneos/FASApp.app/Message.nib /Users/matthew/Desktop/CMPT275/FASApp/Message.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk0#
-
-CCompileXIB /Users/matthew/Desktop/CMPT275/FASApp/NewsList.xib
-s312942365.721715
-e312942366.152976
-r1
-xCompileXIB
-x/Users/matthew/Desktop/CMPT275/FASApp/NewsList.xib
-lSLF07#2@23"CompileXIB NewsList.xib312942365#312942366#0(0"0(0#0#50"/Users/matthew/Desktop/CMPT275/FASApp/NewsList.xib8603914784#534"    cd /Users/matthew/Desktop/CMPT275/FASApp    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.1    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/matthew/Desktop/CMPT275/FASApp/build/Debug-iphoneos/FASApp.app/NewsList.nib /Users/matthew/Desktop/CMPT275/FASApp/NewsList.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk0#
-
-CCompileXIB /Users/matthew/Desktop/CMPT275/FASApp/SFUConnect.xib
-s312942366.248544
-e312942366.720975
-r1
-xCompileXIB
-x/Users/matthew/Desktop/CMPT275/FASApp/SFUConnect.xib
-lSLF07#2@25"CompileXIB SFUConnect.xib312942366#312942366#0(0"0(0#0#52"/Users/matthew/Desktop/CMPT275/FASApp/SFUConnect.xib8605247680#538"    cd /Users/matthew/Desktop/CMPT275/FASApp    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.1    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/matthew/Desktop/CMPT275/FASApp/build/Debug-iphoneos/FASApp.app/SFUConnect.nib /Users/matthew/Desktop/CMPT275/FASApp/SFUConnect.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk0#
-
-CCompileXIB /Users/matthew/Desktop/CMPT275/FASApp/WebViewController.xib
-s312942365.787199
-e312942366.246081
-r1
-xCompileXIB
-x/Users/matthew/Desktop/CMPT275/FASApp/WebViewController.xib
-lSLF07#2@32"CompileXIB WebViewController.xib312942365#312942366#0(0"0(0#0#59"/Users/matthew/Desktop/CMPT275/FASApp/WebViewController.xib8601206912#552"    cd /Users/matthew/Desktop/CMPT275/FASApp    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.1    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/matthew/Desktop/CMPT275/FASApp/build/Debug-iphoneos/FASApp.app/WebViewController.nib /Users/matthew/Desktop/CMPT275/FASApp/WebViewController.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk0#
-
-CCopyPNGFile /Users/matthew/Desktop/CMPT275/FASApp/build/Debug-iphoneos/FASApp.app/icon.png icon.png
-s312942364.717341
-e312942365.269772
-r1
-xCopyPNGFile
-x/Users/matthew/Desktop/CMPT275/FASApp/build/Debug-iphoneos/FASApp.app/icon.png
-xicon.png
-lSLF07#2@61"CopyPNGFile build/Debug-iphoneos/FASApp.app/icon.png icon.png312942364#312942365#0(0"0(0#0#46"/Users/matthew/Desktop/CMPT275/FASApp/icon.png8602088448#552"    cd /Users/matthew/Desktop/CMPT275/FASApp    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/matthew/Desktop/CMPT275/FASApp/icon.png /Users/matthew/Desktop/CMPT275/FASApp/build/Debug-iphoneos/FASApp.app/icon.png0#
-
-CCpResource build/Debug-iphoneos/FASApp.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/ResourceRules.plist
-s312942364.666160
-e312942364.707353
-r1
-xCpResource
-xbuild/Debug-iphoneos/FASApp.app/ResourceRules.plist
-x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/ResourceRules.plist
-lSLF07#2@94"Copy /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/ResourceRules.plist312942364#312942364#0(0"0(0#0#89"/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/ResourceRules.plist4913266056747185152#477"    cd /Users/matthew/Desktop/CMPT275/FASApp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/ResourceRules.plist /Users/matthew/Desktop/CMPT275/FASApp/build/Debug-iphoneos/FASApp.app0#
-
-CCpResource build/Debug-iphoneos/FASApp.app/aboutFAS.html aboutFAS.html
-s312942364.709992
-e312942364.729273
-r1
-xCpResource
-xbuild/Debug-iphoneos/FASApp.app/aboutFAS.html
-xaboutFAS.html
-lSLF07#2@18"Copy aboutFAS.html312942364#312942364#0(0"0(0#0#51"/Users/matthew/Desktop/CMPT275/FASApp/aboutFAS.html8604460256#439"    cd /Users/matthew/Desktop/CMPT275/FASApp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/matthew/Desktop/CMPT275/FASApp/aboutFAS.html /Users/matthew/Desktop/CMPT275/FASApp/build/Debug-iphoneos/FASApp.app0#
-
-CCpResource build/Debug-iphoneos/FASApp.app/aboutUs.html aboutUs.html
-s312942364.715397
-e312942364.730517
-r1
-xCpResource
-xbuild/Debug-iphoneos/FASApp.app/aboutUs.html
-xaboutUs.html
-lSLF07#2@17"Copy aboutUs.html312942364#312942364#0(0"0(0#0#50"/Users/matthew/Desktop/CMPT275/FASApp/aboutUs.html8602385664#438"    cd /Users/matthew/Desktop/CMPT275/FASApp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/matthew/Desktop/CMPT275/FASApp/aboutUs.html /Users/matthew/Desktop/CMPT275/FASApp/build/Debug-iphoneos/FASApp.app0#
-
-CCpResource build/Debug-iphoneos/FASApp.app/contact.html contact.html
-s312942364.713567
-e312942364.734875
-r1
-xCpResource
-xbuild/Debug-iphoneos/FASApp.app/contact.html
-xcontact.html
-lSLF07#2@17"Copy contact.html312942364#312942364#0(0"0(0#0#50"/Users/matthew/Desktop/CMPT275/FASApp/contact.html8603849408#438"    cd /Users/matthew/Desktop/CMPT275/FASApp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/matthew/Desktop/CMPT275/FASApp/contact.html /Users/matthew/Desktop/CMPT275/FASApp/build/Debug-iphoneos/FASApp.app0#
-
-CCpResource build/Debug-iphoneos/FASApp.app/deansMessage.html deansMessage.html
-s312942366.246244
-e312942366.253459
-r1
-xCpResource
-xbuild/Debug-iphoneos/FASApp.app/deansMessage.html
-xdeansMessage.html
-lSLF07#2@22"Copy deansMessage.html312942366#312942366#0(0"0(0#0#55"/Users/matthew/Desktop/CMPT275/FASApp/deansMessage.html8605641920#443"    cd /Users/matthew/Desktop/CMPT275/FASApp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/matthew/Desktop/CMPT275/FASApp/deansMessage.html /Users/matthew/Desktop/CMPT275/FASApp/build/Debug-iphoneos/FASApp.app0#
-
-CCpResource build/Debug-iphoneos/FASApp.app/faculty.html faculty.html
-s312942365.269860
-e312942365.275814
-r1
-xCpResource
-xbuild/Debug-iphoneos/FASApp.app/faculty.html
-xfaculty.html
-lSLF07#2@17"Copy faculty.html312942365#312942365#0(0"0(0#0#50"/Users/matthew/Desktop/CMPT275/FASApp/faculty.html8595740608#438"    cd /Users/matthew/Desktop/CMPT275/FASApp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/matthew/Desktop/CMPT275/FASApp/faculty.html /Users/matthew/Desktop/CMPT275/FASApp/build/Debug-iphoneos/FASApp.app0#
-
-CCpResource build/Debug-iphoneos/FASApp.app/map.gif map.gif
-s312942364.708257
-e312942364.952717
-r1
-xCpResource
-xbuild/Debug-iphoneos/FASApp.app/map.gif
-xmap.gif
-lSLF07#2@12"Copy map.gif312942364#312942364#0(0"0(0#0#45"/Users/matthew/Desktop/CMPT275/FASApp/map.gif8605191104#433"    cd /Users/matthew/Desktop/CMPT275/FASApp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/matthew/Desktop/CMPT275/FASApp/map.gif /Users/matthew/Desktop/CMPT275/FASApp/build/Debug-iphoneos/FASApp.app0#
-
-CCpResource build/Debug-iphoneos/FASApp.app/offline.html offline.html
-s312942366.247805
-e312942366.266930
-r1
-xCpResource
-xbuild/Debug-iphoneos/FASApp.app/offline.html
-xoffline.html
-lSLF07#2@17"Copy offline.html312942366#312942366#0(0"0(0#0#50"/Users/matthew/Desktop/CMPT275/FASApp/offline.html8605475456#438"    cd /Users/matthew/Desktop/CMPT275/FASApp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/matthew/Desktop/CMPT275/FASApp/offline.html /Users/matthew/Desktop/CMPT275/FASApp/build/Debug-iphoneos/FASApp.app0#
-
-CCpResource build/Debug-iphoneos/FASApp.app/template.html template.html
-s312942364.711773
-e312942364.721888
-r1
-xCpResource
-xbuild/Debug-iphoneos/FASApp.app/template.html
-xtemplate.html
-lSLF07#2@18"Copy template.html312942364#312942364#0(0"0(0#0#51"/Users/matthew/Desktop/CMPT275/FASApp/template.html8604161216#439"    cd /Users/matthew/Desktop/CMPT275/FASApp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/matthew/Desktop/CMPT275/FASApp/template.html /Users/matthew/Desktop/CMPT275/FASApp/build/Debug-iphoneos/FASApp.app0#
-
-CCreateUniversalBinary /Users/matthew/Desktop/CMPT275/FASApp/build/Debug-iphoneos/FASApp.app/FASApp normal "armv6 armv7"
-s312942370.012915
-e312942370.018322
-r1
-xCreateUniversalBinary
-x/Users/matthew/Desktop/CMPT275/FASApp/build/Debug-iphoneos/FASApp.app/FASApp
-xnormal
-xarmv6 armv7
-lSLF07#2@81"CreateUniversalBinary build/Debug-iphoneos/FASApp.app/FASApp normal "armv6 armv7"312942370#312942370#0(0"0(0#0#49"/Users/matthew/Desktop/CMPT275/FASApp/armv6 armv78604098592#506"    cd /Users/matthew/Desktop/CMPT275/FASApp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/lipo -create /Users/matthew/Desktop/CMPT275/FASApp/build/FASApp.build/Debug-iphoneos/FASApp.build/Objects-normal/armv6/FASApp /Users/matthew/Desktop/CMPT275/FASApp/build/FASApp.build/Debug-iphoneos/FASApp.build/Objects-normal/armv7/FASApp -output /Users/matthew/Desktop/CMPT275/FASApp/build/Debug-iphoneos/FASApp.app/FASApp0#
-
-CGenerateDSYMFile /Users/matthew/Desktop/CMPT275/FASApp/build/Debug-iphoneos/FASApp.app.dSYM /Users/matthew/Desktop/CMPT275/FASApp/build/Debug-iphoneos/FASApp.app/FASApp
-s312942370.018574
-e312942370.112940
-r1
-xGenerateDSYMFile
-x/Users/matthew/Desktop/CMPT275/FASApp/build/Debug-iphoneos/FASApp.app.dSYM
-x/Users/matthew/Desktop/CMPT275/FASApp/build/Debug-iphoneos/FASApp.app/FASApp
-lSLF07#2@92"GenerateDSYMFile build/Debug-iphoneos/FASApp.app.dSYM build/Debug-iphoneos/FASApp.app/FASApp312942370#312942370#0(0"0(0#0#76"/Users/matthew/Desktop/CMPT275/FASApp/build/Debug-iphoneos/FASApp.app/FASApp8602486144#356"    cd /Users/matthew/Desktop/CMPT275/FASApp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/matthew/Desktop/CMPT275/FASApp/build/Debug-iphoneos/FASApp.app/FASApp -o /Users/matthew/Desktop/CMPT275/FASApp/build/Debug-iphoneos/FASApp.app.dSYM0#
-
-CLd /Users/matthew/Desktop/CMPT275/FASApp/build/FASApp.build/Debug-iphoneos/FASApp.build/Objects-normal/armv6/FASApp normal armv6
-s312942369.061591
-e312942369.126275
-r1
-xLd
-x/Users/matthew/Desktop/CMPT275/FASApp/build/FASApp.build/Debug-iphoneos/FASApp.build/Objects-normal/armv6/FASApp
-xnormal
-xarmv6
-lSLF07#2@117"Link /Users/matthew/Desktop/CMPT275/FASApp/build/FASApp.build/Debug-iphoneos/FASApp.build/Objects-normal/armv6/FASApp312942369#312942369#0(0"0(0#0#0"8605554880#889"    cd /Users/matthew/Desktop/CMPT275/FASApp    setenv IPHONEOS_DEPLOYMENT_TARGET 4.1    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv6 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk -L/Users/matthew/Desktop/CMPT275/FASApp/build/Debug-iphoneos -F/Users/matthew/Desktop/CMPT275/FASApp/build/Debug-iphoneos -filelist /Users/matthew/Desktop/CMPT275/FASApp/build/FASApp.build/Debug-iphoneos/FASApp.build/Objects-normal/armv6/FASApp.LinkFileList -dead_strip -miphoneos-version-min=4.1 -framework Foundation -framework UIKit -framework CoreGraphics -framework SystemConfiguration -lz.1.1.3 -o /Users/matthew/Desktop/CMPT275/FASApp/build/FASApp.build/Debug-iphoneos/FASApp.build/Objects-normal/armv6/FASApp0#
-
-CLd /Users/matthew/Desktop/CMPT275/FASApp/build/FASApp.build/Debug-iphoneos/FASApp.build/Objects-normal/armv7/FASApp normal armv7
-s312942369.969361
-e312942370.012804
-r1
-xLd
-x/Users/matthew/Desktop/CMPT275/FASApp/build/FASApp.build/Debug-iphoneos/FASApp.build/Objects-normal/armv7/FASApp
-xnormal
-xarmv7
-lSLF07#2@117"Link /Users/matthew/Desktop/CMPT275/FASApp/build/FASApp.build/Debug-iphoneos/FASApp.build/Objects-normal/armv7/FASApp312942369#312942370#0(0"0(0#0#0"8605029280#889"    cd /Users/matthew/Desktop/CMPT275/FASApp    setenv IPHONEOS_DEPLOYMENT_TARGET 4.1    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv7 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk -L/Users/matthew/Desktop/CMPT275/FASApp/build/Debug-iphoneos -F/Users/matthew/Desktop/CMPT275/FASApp/build/Debug-iphoneos -filelist /Users/matthew/Desktop/CMPT275/FASApp/build/FASApp.build/Debug-iphoneos/FASApp.build/Objects-normal/armv7/FASApp.LinkFileList -dead_strip -miphoneos-version-min=4.1 -framework Foundation -framework UIKit -framework CoreGraphics -framework SystemConfiguration -lz.1.1.3 -o /Users/matthew/Desktop/CMPT275/FASApp/build/FASApp.build/Debug-iphoneos/FASApp.build/Objects-normal/armv7/FASApp0#
-
-CProcessInfoPlistFile /Users/matthew/Desktop/CMPT275/FASApp/build/Debug-iphoneos/FASApp.app/Info.plist FASApp-Info.plist
-s312942364.668134
-e312942364.678591
-r1
-xProcessInfoPlistFile
-x/Users/matthew/Desktop/CMPT275/FASApp/build/Debug-iphoneos/FASApp.app/Info.plist
-xFASApp-Info.plist
-lSLF07#2@25"Process FASApp-Info.plist312942364#312942364#0(0"0(0#0#55"/Users/matthew/Desktop/CMPT275/FASApp/FASApp-Info.plist8605024480#554"    cd /Users/matthew/Desktop/CMPT275/FASApp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility FASApp-Info.plist -genpkginfo /Users/matthew/Desktop/CMPT275/FASApp/build/Debug-iphoneos/FASApp.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile /Users/matthew/Desktop/CMPT275/FASApp/build/Debug-iphoneos/FASApp.app/ResourceRules.plist -o /Users/matthew/Desktop/CMPT275/FASApp/build/Debug-iphoneos/FASApp.app/Info.plist0#
-
-CProcessPCH /var/folders/Bs/BsR3qIplGWWwc9MfqHrARk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FASApp_Prefix-bjlesocrlrvcpwftthbnfrhngptq/FASApp_Prefix.pch.gch FASApp_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
-r0
-
-CProcessPCH /var/folders/Bs/BsR3qIplGWWwc9MfqHrARk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FASApp_Prefix-fowfaqrvktaijxbnjezubgjfifqn/FASApp_Prefix.pch.gch FASApp_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
-r0
-
-CProcessProductPackaging "/Users/matthew/Library/MobileDevice/Provisioning Profiles/11FD6B6B-BCA7-4A32-961D-743D3C0EAE39.mobileprovision" /Users/matthew/Desktop/CMPT275/FASApp/build/Debug-iphoneos/FASApp.app/embedded.mobileprovision
-s312942370.113049
-e312942370.141879
-r1
-xProcessProductPackaging
-x/Users/matthew/Library/MobileDevice/Provisioning Profiles/11FD6B6B-BCA7-4A32-961D-743D3C0EAE39.mobileprovision
-x/Users/matthew/Desktop/CMPT275/FASApp/build/Debug-iphoneos/FASApp.app/embedded.mobileprovision
-lSLF07#2@193"ProcessProductPackaging "/Users/matthew/Library/MobileDevice/Provisioning Profiles/11FD6B6B-BCA7-4A32-961D-743D3C0EAE39.mobileprovision" build/Debug-iphoneos/FASApp.app/embedded.mobileprovision312942370#312942370#0(0"0(0#0#94"/Users/matthew/Desktop/CMPT275/FASApp/build/Debug-iphoneos/FASApp.app/embedded.mobileprovision8601904640#422"    cd /Users/matthew/Desktop/CMPT275/FASApp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> "/Users/matthew/Library/MobileDevice/Provisioning Profiles/11FD6B6B-BCA7-4A32-961D-743D3C0EAE39.mobileprovision" -o /Users/matthew/Desktop/CMPT275/FASApp/build/Debug-iphoneos/FASApp.app/embedded.mobileprovision0#
-
-CProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/Entitlements.plist /Users/matthew/Desktop/CMPT275/FASApp/build/FASApp.build/Debug-iphoneos/FASApp.build/FASApp.xcent
-s312942370.157838
-e312942370.186011
-r1
-xProcessProductPackaging
-x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/Entitlements.plist
-x/Users/matthew/Desktop/CMPT275/FASApp/build/FASApp.build/Debug-iphoneos/FASApp.build/FASApp.xcent
-lSLF07#2@172"ProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/Entitlements.plist build/FASApp.build/Debug-iphoneos/FASApp.build/FASApp.xcent312942370#312942370#0(0"0(0#0#97"/Users/matthew/Desktop/CMPT275/FASApp/build/FASApp.build/Debug-iphoneos/FASApp.build/FASApp.xcent8603753600#427"    cd /Users/matthew/Desktop/CMPT275/FASApp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/Entitlements.plist -entitlements -format xml -o /Users/matthew/Desktop/CMPT275/FASApp/build/FASApp.build/Debug-iphoneos/FASApp.build/FASApp.xcent0#
-
-CTouch /Users/matthew/Desktop/CMPT275/FASApp/build/Debug-iphoneos/FASApp.app
-s312942370.141995
-e312942370.157741
-r1
-xTouch
-x/Users/matthew/Desktop/CMPT275/FASApp/build/Debug-iphoneos/FASApp.app
-lSLF07#2@75"Touch /Users/matthew/Desktop/CMPT275/FASApp/build/Debug-iphoneos/FASApp.app312942370#312942370#0(0"0(0#0#0"8601512832#261"    cd /Users/matthew/Desktop/CMPT275/FASApp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/matthew/Desktop/CMPT275/FASApp/build/Debug-iphoneos/FASApp.app0#
-
